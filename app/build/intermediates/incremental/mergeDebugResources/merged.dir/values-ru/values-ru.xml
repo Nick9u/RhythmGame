@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accuracyLevel">
+    <item>Слишком Легко</item>
+    <item>Легко</item>
+    <item>Нормально</item>
+    <item>Тяжело</item>
+    <item>Очень Тяжело</item>
+    <item>Невозможно</item>
+  </string-array>
+    <string-array name="appPriority">
+    <item>Нормальный</item>
+    <item>Высокий</item>
+    <item>Очень Высокий</item>
+    <item>Высочайший(Нестабильно)</item>
+  </string-array>
+    <string-array name="backgroundImage">
+    <item>Синий</item>
+    <item>Красный</item>
+    <item>Белый</item>
+  </string-array>
+    <string-array name="difficultyLevel">
+    <item>Новичок</item>
+    <item>Легко</item>
+    <item>Средне</item>
+    <item>Тяжело</item>
+    <item>Вызов</item>
+  </string-array>
+    <string-array name="gameMode">
+    <item>Реверс/Вниз</item>
+    <item>Стандарт/Вверх</item>
+    <item>osu! Мод</item>
+    <item>osu! Мод Рандом</item>
+  </string-array>
+    <string-array name="noteAppearance">
+    <item>Видимые</item>
+    <item>Спрятанные</item>
+    <item>Внезапные</item>
+    <item>Невидимые</item>
+  </string-array>
+    <string-array name="noteskin">
+    <item>По-умолчанию</item>
+    <item>Оригинальный</item>
+    <item>Свой</item>
+  </string-array>
+    <string-array name="orientation">
+    <item>Ландшафт</item>
+    <item>Портрет</item>
+    <item>Авто</item>
+  </string-array>
+    <string-array name="randomize">
+    <item>Выкл</item>
+    <item>Статично</item>
+    <item>Динамично</item>
+  </string-array>
+    <string-array name="tapboxLayout">
+    <item>Д-Пад</item>
+    <item>Искривленная</item>
+    <item>Искривленная-П</item>
+    <item>Стандарт</item>
+    <item>Полноэкранная</item>
+  </string-array>
+    <string-array name="toggle">
+    <item>Выкл</item>
+    <item>Вкл</item>
+  </string-array>
+    <string-array name="toggleDefault">
+    <item>По-умолчанию</item>
+    <item>Выкл</item>
+    <item>Вкл</item>
+  </string-array>
+    <string-array name="vibrateMiss">
+    <item>Тяжелая</item>
+    <item>Легкая</item>
+    <item>Выкл</item>
+  </string-array>
+    <string name="Accuracy_almost">"Почти"</string>
+    <string name="Accuracy_best_combo">"Лучшее Комбо"</string>
+    <string name="Accuracy_good">"Хорошо"</string>
+    <string name="Accuracy_great">"Великолепно"</string>
+    <string name="Accuracy_marvelous">"Изумительно!"</string>
+    <string name="Accuracy_miss">"Мимо"</string>
+    <string name="Accuracy_no_good">"Не Хорошо"</string>
+    <string name="Accuracy_ok">"ОК"</string>
+    <string name="Accuracy_perfect">"Безупречно!"</string>
+    <string name="App_description">"Beats - это музыкальный ритм гейм, в котором вы касаетесь экрана под ритм музыки из установленных паков песен."</string>
+    <string name="Button_close">"Закрыть"</string>
+    <string name="Button_demo">"Демо"</string>
+    <string name="Button_download">"Загрузка"</string>
+    <string name="Button_error">"Ошибка"</string>
+    <string name="Button_install">"Установка"</string>
+    <string name="Button_no">"Нет"</string>
+    <string name="Button_ok">"ОК"</string>
+    <string name="Button_success">"Успешно"</string>
+    <string name="Button_updates">"Обновления"</string>
+    <string name="Button_warning">"Внимание"</string>
+    <string name="Button_yes">"Да"</string>
+    <string name="DataParser_unsupported">"Неподдерживаемый файл шагов: в данный момент поддерживаются только .sm, .dwi и .osu"</string>
+    <string name="Difficulty_beginner">"Новичок"</string>
+    <string name="Difficulty_challenge">"Вызов"</string>
+    <string name="Difficulty_easy">"Легко"</string>
+    <string name="Difficulty_edit">"Другая"</string>
+    <string name="Difficulty_hard">"Тяжело"</string>
+    <string name="Difficulty_medium">"Средне"</string>
+    <string name="Difficulty_unknown">"Неизвестно"</string>
+    <string name="GUIGame_by">" от "</string>
+    <string name="GUIGame_dark">", Темнота"</string>
+    <string name="GUIGame_done_complete_1">"Жмите НАЗАД для возврата"</string>
+    <string name="GUIGame_done_complete_2">"к главному меню"</string>
+    <string name="GUIGame_done_fail_1">"Жмите НАЗАД, попробуйте"</string>
+    <string name="GUIGame_done_fail_2">"уровень сложности полегче"</string>
+    <string name="GUIGame_done_good_1">"Жмите НАЗАД, попробуйте"</string>
+    <string name="GUIGame_done_good_2">"уровень сложности повыше"</string>
+    <string name="GUIGame_exiting">"ВЫХОД"</string>
+    <string name="GUIGame_hidden">", Спрятанные"</string>
+    <string name="GUIGame_highscore">"Новый Рекорд: "</string>
+    <string name="GUIGame_invisible">", Невидимые"</string>
+    <string name="GUIGame_jumps">", Прыжки"</string>
+    <string name="GUIGame_nextFrame_error">"Ошибка: nextFrame() провалился...\n"</string>
+    <string name="GUIGame_no_holds">", Без Холдов"</string>
+    <string name="GUIGame_osu_mod">", osu! Мод"</string>
+    <string name="GUIGame_paused">"ПАУЗА"</string>
+    <string name="GUIGame_randomize_dynamic">", Случ-Д"</string>
+    <string name="GUIGame_randomize_static">", Случ-С"</string>
+    <string name="GUIGame_ready">"ГОТОВ"</string>
+    <string name="GUIGame_resumed">"ПРОДОЛЖАЕМ"</string>
+    <string name="GUIGame_score">"Счет: "</string>
+    <string name="GUIGame_score_complete">"Завершено: "</string>
+    <string name="GUIGame_score_game_over">"Игра Окончена: "</string>
+    <string name="GUIGame_score_max_combo">"Макс. Комбо! "</string>
+    <string name="GUIGame_standard">"Стандарт"</string>
+    <string name="GUIGame_sudden">", Внезапные"</string>
+    <string name="GUIHandler_combo">" КОМБО"</string>
+    <string name="GUIHandler_complete">"Завершено"</string>
+    <string name="GUIHandler_game_over">"Игра Окончена"</string>
+    <string name="MenuFilechooser_file_delete">"Удалить"</string>
+    <string name="MenuFilechooser_file_delete_confirm">"Вы уверены, что хотите удалить файл/папку:\n"</string>
+    <string name="MenuFilechooser_file_delete_error">"Невозможно удалить файл/папку:\n"</string>
+    <string name="MenuFilechooser_file_extension_error">"Ошибка: Невозможно сопоставить расширение файла с каким-либо оператором... этого не должно происходить... O_o"</string>
+    <string name="MenuFilechooser_file_open">"Открыть"</string>
+    <string name="MenuFilechooser_file_open_error">"Ошибка: Невозможно открыть файл:\n"</string>
+    <string name="MenuFilechooser_file_options">"Меню Файла"</string>
+    <string name="MenuFilechooser_list_error">"Ошибка: Невозможно определить файлы в папке:\n"</string>
+    <string name="MenuFilechooser_music_error">"Ошибка: Не могу найти файл музыки:\n"</string>
+    <string name="MenuFilechooser_music_error_stepfile">"\nдля файла шагов:\n"</string>
+    <string name="MenuFilechooser_selected_stepfile">"Выбранный файл шагов:\n"</string>
+    <string name="MenuFilechooser_start_info">"\n\nНажмите кнопку \"МЕНЮ\"  для смены сложности\nНажмите \"СТАРТ\" для начала песни"</string>
+    <string name="MenuFilechooser_up_dir">".. [на уровень выше]"</string>
+    <string name="MenuFilechooser_url_error">"Ошибка: Неверный ярлык интернета, невозможно определить URL."</string>
+    <string name="MenuHome_background_image_load_fail">"Невозможно загрузить фоновое изображение - не хватает памяти!"</string>
+    <string name="MenuHome_background_sync_fail">"Настройки фоновой передачи данных не могут быть изменены."</string>
+    <string name="MenuHome_background_sync_undo">"В начале вы изменили настройки \"Фоновой передачи данных\" . Хотите обновить настройки\?"</string>
+    <string name="MenuHome_background_sync_warning">"В вашем телефоне включена \"Фоновая передача данных\". Выключение \"Фоновой передачи данных\" помогает предотвратить лаги вызванные другими приложениями. В качестве альтернативы вы можете увеличить \"Приоритет Приложения\" в \"Продвинутых Настройках\".\n\nХотите изменить настройку \"Фоновой передачи данных\" \? (Рекомендовано для уменьшения лагов)"</string>
+    <string name="MenuHome_legacy_warning">"Ваш телефон находится под управлением Android 1.5 (Cupcake) или 1.6 (Donut), которые не полностью поддерживают мульти-тач. Рекомендуется обновиться до 2.1 (Eclair) или выше. Beats может быть запущен с сингл-тачем но многие песни станут слишком сложны для игры."</string>
+    <string name="MenuHome_new_user_notes_title">"Для Новых Пользователей"</string>
+    <string name="MenuHome_release_notes_title">"Особенности Выпуска Beats"</string>
+    <string name="MenuHome_titlebar">"Beats - Продвинутый Ритм Гейм"</string>
+    <string name="MenuSettings_title">"Beats - Настройки"</string>
+    <string name="MenuStartGame_choose_new">"\n\nПожалуйста, выберите новую песню."</string>
+    <string name="MenuStartGame_difficulty_closest">"\" но самая ближайшая сложность \""</string>
+    <string name="MenuStartGame_difficulty_continue">"\".\n\nХотите продолжить по-любому\?"</string>
+    <string name="MenuStartGame_difficulty_selected">"Вы выбрали сложность \""</string>
+    <string name="MenuStartGame_fail_parse">"Ошибка: Не удалось обработать файл шагов:\n"</string>
+    <string name="MenuStartGame_loading_progress_bar">"Загрузка файла шагов:\n"</string>
+    <string name="MenuStartGame_loading_title">"Загрузки: "</string>
+    <string name="MenuStartGame_missing_music">"Невозможно найти файл музыки:\n"</string>
+    <string name="MenuStartGame_missing_sm">"Невозможно найти файл шагов:\n"</string>
+    <string name="MenuStartGame_music_error">"Не найден файл музыки."</string>
+    <string name="MenuStartGame_notes_error">"Не найдены поддерживаемые данные нот."</string>
+    <string name="MenuStartGame_ogg_warning">"Файл .sm, выбранный вами, использует музыку в формате .ogg. Из-за бага Android (луркайте Issue 11590), музыка может быть рассинхронизирована с нотами. Рекомендуется попытаться исправить разницу вручную используя настройку \"Смещение OGG\".\n\nХотите продолжить\?"</string>
+    <string name="MenuStartGame_osu_warning">"В данный момент поддержка .osu - все еще эксперимент. Слайдеры, спиннеры, режим Taiko и многие другие функции еще не реализованы.\n\nЕсли вы обнаружите любые битмапы .osu, которые Beats не сможет загрузить, пожалуйста отправьте их мне, спасибо!\n\n~Keripo"</string>
+    <string name="MenuStartGame_select_music">"Используйте \"ВЫБОР ПЕСЕН\" для выбора установленных песен.\n\nЕсли у вас ни одна не установлена, используйте \"ЗАГРУЗКУ ПЕСЕН\" чтобы посетить BeatsPortable.com и прочесть инструкции по загрузке/установке."</string>
+    <string name="Menu_auto">" авто "</string>
+    <string name="Menu_download_songs">" скачать песни "</string>
+    <string name="Menu_exit">" выход "</string>
+    <string name="Menu_select_song">" выбрать песни "</string>
+    <string name="Menu_settings">" настройки "</string>
+    <string name="Menu_start">" начать "</string>
+    <string name="MusicService_invalid_path">"Неверный путь к файлу музыки:\n"</string>
+    <string name="MusicService_not_initialized">"MusicPlayer не инициализирован."</string>
+    <string name="MusicService_unable_create_service">"Ошибка: Невозможно создать MusicService."</string>
+    <string name="MusicService_unable_pause_playback">"Ошибка: Невозможно приостановить проигрывание. Попробуйте перезапустить Beats если проблема останется."</string>
+    <string name="MusicService_unable_resume_playback">"Ошибка: Невозможно продолжить проигрывание. Попробуйте перезапустить Beats если проблема останется."</string>
+    <string name="MusicService_unable_start_playback">"Ошибка: Невозможно начать проигрывание. Попробуйте перезапустить Beats если проблема останется."</string>
+    <string name="MusicService_unable_stop_playback">"Ошибка: Невозможно остановить проигрывание. Попробуйте перезапустить Beats если проблема останется."</string>
+    <string name="ToolsDownloader_download">"Загрузка: "</string>
+    <string name="ToolsDownloader_download_ask">"Хотите загрузить пак песен из:\n"</string>
+    <string name="ToolsDownloader_downloading">"Загрузка файла:\n"</string>
+    <string name="ToolsDownloader_unsupported">"Ошибка: Неподдерживаемый URL загрузки. Загрузчик Beats поддерживает только формат .smzip"</string>
+    <string name="ToolsSampleInstaller_graphics">"Распаковка графики, пожалуйста подождите..."</string>
+    <string name="ToolsSampleInstaller_installing">"Распаковка пробного пака песен, пожалуйста подождите..."</string>
+    <string name="ToolsUnzipperActivity_install">"Установка: "</string>
+    <string name="ToolsUnzipperActivity_unsupported">"Ошибка: Неподдерживаемый источник. Установщик Beats поддерживает только форматы .zip и .smzip"</string>
+    <string name="ToolsUnzipper_error_no_stepfiles">"Файлы шагов не найдены в паке."</string>
+    <string name="ToolsUnzipper_install_ask">"Хотите установить файлы шагов из пака:\n"</string>
+    <string name="ToolsUnzipper_install_ask_location">"\nв папку песен Beats:\n"</string>
+    <string name="ToolsUnzipper_installed_to">"\nустановлен в:\n"</string>
+    <string name="ToolsUnzipper_installing">"Установка пака песен:\n"</string>
+    <string name="ToolsUnzipper_just_deleted">"\n\nМожет вы просто удалили файл\?"</string>
+    <string name="ToolsUnzipper_please_wait">"\nПожалуйста, пожождите..."</string>
+    <string name="ToolsUnzipper_size_ask">"\nбольше 100MB в размере. Установка пака может занять длительное время. Рекомендуется установить пак вручную с помощью компьютера.\n\nПродолжить по любому\?"</string>
+    <string name="ToolsUnzipper_songpack">"Пак песен:\n"</string>
+    <string name="ToolsUnzipper_unable_install">"Невозможно установить файлы шагов из:\n"</string>
+    <string name="ToolsUnzipper_unable_read">"Невозможно прочитать файл:\n"</string>
+    <string name="ToolsUpdateTask_update_ask">"Новое обновление для Beats доступно!\n\nНазвание: %1$s\nНомер версии: %2$d\n\nХотели бы Вы, чтобы загрузить новую версию?"</string>
+    <string name="Tools_do_not_show_again">"Не показывать мне это снова"</string>
+    <string name="Tools_error_msg">"\nСообщение об ошибке:\n"</string>
+    <string name="Tools_mount_error">"Невозможно получить доступ к папке Beats."</string>
+    <string name="Tools_notify_msg">"\nПожалуйста, оповестите меня об этой ошибке.\n~Keripo\""</string>
+    <string name="Tools_permissions_error">"\nПроверьте, есть ли у вас необходимые файловые разрешения."</string>
+    <string name="Tools_screenshot_saved">"Скриншот сохранен в:\n"</string>
+    <string name="Tools_unable_create_dir">"Ошибка: Невозможно создать папку:\n"</string>
+    <string name="Tools_unable_create_file">"Ошибка: Невозможно создать файл:\n"</string>
+    <string name="Tools_unable_delete_dir">"Ошибка: Невозможно удалить папку:\n"</string>
+    <string name="Tools_unable_delete_file">"Ошибка: Невозможно удалить файл:\n"</string>
+    <string name="Tools_usb_error">"\nМожет вы в режиме USB накопителя\?"</string>
+    <string name="Tools_window_error">"Ошибка переключения окон - Я еще не выяснил, как устранить её; / (пожалуйста, напишите мне детали!)"</string>
+    <string name="accuracyLevelDesc">"Строгость определения точности касаний"</string>
+    <string name="accuracyLevelTitle">"Определение Точности"</string>
+    <string name="additionalVibrationsDesc">"Вибрации при запуске приложения и песен"</string>
+    <string name="additionalVibrationsTitle">"Доп. Вибрации"</string>
+    <string name="advancedScreenDesc">"Дополнительные настройки Beats для удовлетворения ваших душевных потребностей"</string>
+    <string name="advancedScreenTitle">"Продвинутые Настройки"</string>
+    <string name="appPriorityDesc">"Увеличьте для уменьшения лагов, может вызвать нестабильность"</string>
+    <string name="appPriorityTitle">"Приоритет Приложения"</string>
+    <string name="autoPlayDesc">"Используйте Авторежим для заучивания паттернов песен (или ради лулзов!)"</string>
+    <string name="autoPlayTitle">"Авторежим"</string>
+    <string name="autoStartDesc">"Начинать игру автоматически при выборе файла шагов"</string>
+    <string name="autoStartTitle">"АвтоСтарт"</string>
+    <string name="backgroundBrightnessDesc">"Яркость фона (выключите для лучшего FPS)"</string>
+    <string name="backgroundBrightnessTitle">"Яркость Фона"</string>
+    <string name="backgroundCategoryTitle">"Игровой Фон"</string>
+    <string name="backgroundFilteringDesc">"Сглаживать фоновое изображение (может повлиять на FPS)"</string>
+    <string name="backgroundFilteringTitle">"Фильтрация Фона"</string>
+    <string name="backgroundImageDesc">"Фоновое изображение главного меню и песен без оного"</string>
+    <string name="backgroundImageTitle">"Фон Меню"</string>
+    <string name="backgroundShowDesc">"Отрисовывать фоновое изображение"</string>
+    <string name="backgroundShowTitle">"Показывать Фон"</string>
+    <string name="backgroundSongDesc">"Загружать свое изображение для каждой песни"</string>
+    <string name="backgroundSongTitle">"Загружать Фон Из Песни"</string>
+    <string name="betaNotesDesc">"Показать особенности выпуска бета версии во время следующего запуска"</string>
+    <string name="betaNotesTitle">"Особенности Выпуска"</string>
+    <string name="changelogDesc">"Обновленный форумный тред об изменениях в этой версии"</string>
+    <string name="changelogTitle">"Журнал Изменений"</string>
+    <string name="creditsDesc">"Немного о разработчиках и всех остальных, кого следует поблагодарить"</string>
+    <string name="creditsTitle">"Авторы"</string>
+    <string name="darkDesc">"Прятать стрелки"</string>
+    <string name="darkTitle">"Темнота"</string>
+    <string name="debugLogCatDesc">"Печать предупреждений/ошибок в LogCat"</string>
+    <string name="debugLogCatTitle">"Дебаггинг LogCat"</string>
+    <string name="debugTapboxDesc">"Вырисовывать точные зоны касаний"</string>
+    <string name="debugTapboxTitle">"Дебаггинг Тап Зон"</string>
+    <string name="debugTimeDesc">"Показывать точную временную разницу нот и синхронизации"</string>
+    <string name="debugTimeTitle">"Дебаггинг Тайминга"</string>
+    <string name="debuggingCategoryTitle">"Дебаггинг"</string>
+    <string name="demoDesc">"Геймплейное демо видео Beats"</string>
+    <string name="demoTitle">"Демо"</string>
+    <string name="difficultyLevelDesc">"Уровень сложности песен по умолчанию"</string>
+    <string name="difficultyLevelTitle">"Уровень сложности"</string>
+    <string name="displaySettingsCategoryTitle">"Настройки Дисплея"</string>
+    <string name="donateDesc">"Скажите спасибо бедным студентам! Пожертвования держат наш сайт в строю"</string>
+    <string name="donateTitle">"Пожертвовать"</string>
+    <string name="filebrowserCategoryTitle">"Просмотр Песен"</string>
+    <string name="forumsDesc">"Обсуждение и техподдержка Beats"</string>
+    <string name="forumsTitle">"Форумы"</string>
+    <string name="fullscreenDesc">"Спрятать статус бар"</string>
+    <string name="fullscreenTitle">"Полный экран"</string>
+    <string name="gameModeDesc">"Режим отображения нот"</string>
+    <string name="gameModeTitle">"Режим Игры"</string>
+    <string name="gameScreenDesc">"Экран во время игры"</string>
+    <string name="gameScreenTitle">"Игровой Экран"</string>
+    <string name="gameSettingsCategoryTitle">"Настройки Игры"</string>
+    <string name="gameplayCategoryTitle">"Геймплей"</string>
+    <string name="hardwareAccelerationDesc">Может повысить FPS</string>
+    <string name="hardwareAccelerationTitle">Аппаратное ускорение</string>
+    <string name="healthMaxDesc">"Максимальное количество жизни"</string>
+    <string name="healthMaxTitle">"Количество хп"</string>
+    <string name="healthPenaltyDesc">"Потеря хп за пропущенную ноту"</string>
+    <string name="healthPenaltyTitle">"Штрафы"</string>
+    <string name="holdsDesc">"Ноты, которые требуется удерживать"</string>
+    <string name="holdsTitle">"Холды"</string>
+    <string name="infoCategoryTitle">"Информация"</string>
+    <string name="infoScreenDesc">"Ссылки и информация о Beats"</string>
+    <string name="infoScreenTitle">"Информация"</string>
+    <string name="installSamplesDesc">"Переустановить пробный пак песен при следующем запуске"</string>
+    <string name="installSamplesTitle">"Переустановить Пробный Пак"</string>
+    <string name="interfaceCategoryTitle">"Игровой интерфейс"</string>
+    <string name="jumpsDesc">"Несколько нот на линии"</string>
+    <string name="jumpsTitle">"Прыжки"</string>
+    <string name="languageDesc">"Смена языка"</string>
+    <string name="languageTitle">"Язык"</string>
+    <string name="linksCategoryTitle">"Ссылки"</string>
+    <string name="machineSettingsCategoryTitle">"Настройки Аппарата"</string>
+    <string name="manualOGGOffsetDesc">"Настройте это если формат .ogg рассихронизирован (Я использую -0.325s)"</string>
+    <string name="manualOGGOffsetTitle">"Смещение OGG"</string>
+    <string name="manualOffsetDesc">"Настраивайте это только при рассинхронизации музыки и нот"</string>
+    <string name="manualOffsetTitle">"Смещение Музыки"</string>
+    <string name="miscCategoryTitle">"Прочее"</string>
+    <string name="modifiersScreenDesc">"Модификаторы, влияющие на ноты или их вид"</string>
+    <string name="modifiersScreenTitle">"Модификаторы"</string>
+    <string name="noteAppearanceDesc">"Видимость нот"</string>
+    <string name="noteAppearanceTitle">"Внешний Вид"</string>
+    <string name="notesCategoryTitle">"Ноты"</string>
+    <string name="noteskinDesc">"Наборы графики для стрелок"</string>
+    <string name="noteskinTitle">"Вид Стрелок"</string>
+    <string name="orientationDesc">"Ориентация экрана по умолчанию во время игры"</string>
+    <string name="orientationTitle">"Ориентация Экрана"</string>
+    <string name="randomizeDesc">"Рандомизировать паттерн нот (игнорирует холды)"</string>
+    <string name="randomizeTitle">"Рандомизировать"</string>
+    <string name="resetHighScoresDesc">"Сбросить все рекорды на следующей песне"</string>
+    <string name="resetHighScoresTitle">"Сбросить Рекорды"</string>
+    <string name="resetSettingsDesc">"Сбросить к настройкам по умолчанию во время следующего запуска"</string>
+    <string name="resetSettingsTitle">"Сброс Всех Настроек"</string>
+    <string name="screenshotModeDesc">Включите, чтобы делать снимок экрана когда вы ставите игру на паузу</string>
+    <string name="screenshotModeTitle">"Режим Скриншотов"</string>
+    <string name="showFPSDesc">"Показывать текущую и среднюю частоту кадров (# кадров/сек)"</string>
+    <string name="showFPSTitle">"Показать FPS"</string>
+    <string name="showPercentDesc">"Показывать проценты вместо буквенных оценок в таблице очков"</string>
+    <string name="showPercentTitle">"Показывать Проценты"</string>
+    <string name="speedMultiplierDesc">"Скорость падающих нот"</string>
+    <string name="speedMultiplierTitle">"Скорость"</string>
+    <string name="stepfileFolderCheckDesc">"Отключите чтобы напрямую открывать папки с файлами шагов"</string>
+    <string name="stepfileFolderCheckTitle">"Проверка Папок Песен"</string>
+    <string name="syncDurationDesc">"Продолжительность синхронизации музыки с нотами во время запуска и паузы/продолжения"</string>
+    <string name="syncDurationTitle">"Синхронизация Звука"</string>
+    <string name="tapSettingsCategoryTitle">"Настройки Сенсора"</string>
+    <string name="tapboxFadingDesc">"Прозрачность зон касаний"</string>
+    <string name="tapboxFadingTitle">"Прозрачность Тап Зон"</string>
+    <string name="tapboxLayoutDesc">"Размещение зон касаний"</string>
+    <string name="tapboxLayoutTitle">"Раскладка Тап Зон"</string>
+    <string name="tapboxOverlapDesc">"Горизонтальное совмещение смежных зон касаний"</string>
+    <string name="tapboxOverlapTitle">"Совместить Тап Зоны"</string>
+    <string name="tapboxYOffsetDesc">"Сдвиг зон касаний по вертикали"</string>
+    <string name="tapboxYOffsetTitle">"Pасположение Тап Зон"</string>
+    <string name="thanksCategoryTitle">"Спасибо"</string>
+    <string name="todoDesc">"Обновленный форумный тред о фичах следующей версии"</string>
+    <string name="todoTitle">"В разработке"</string>
+    <string name="tutorialDesc">"Видео обучение, демонстрирующее различные особенности Beats"</string>
+    <string name="tutorialTitle">"Обучение"</string>
+    <string name="tweaksCategoryTitle">"Твики"</string>
+    <string name="useShortDirNamesDesc">"Убирать теги (...) и [...] из названия папок в \'BЫБОРЕ ПЕСЕН\'"</string>
+    <string name="useShortDirNamesTitle">"Сокр. Названия Папок"</string>
+    <string name="vibrateHoldDesc">"Продолжать вибрировать во время удержания холдов"</string>
+    <string name="vibrateHoldTitle">"Вибрировать Во Время Холдов"</string>
+    <string name="vibrateMissDesc">"Вибрировать при промахе ноты или тапе в Авторежиме"</string>
+    <string name="vibrateMissTitle">"Вибрация при промахе"</string>
+    <string name="vibrateScreenDesc">"Настройки вибрации/тактильной отдачи"</string>
+    <string name="vibrateScreenTitle">"Вибрация"</string>
+    <string name="vibrateTapDesc">"Вибрировать при касании стрелок"</string>
+    <string name="vibrateTapTitle">"Вибрация при Касании"</string>
+    <string name="vibrateTouchSenseDesc">"Тактильная отдача с применением технологии Immersion\'s Universal Haptic Layer (UHL)"</string>
+    <string name="vibrateTouchSenseTitle">"Вибрация с UHL"</string>
+    <string name="websiteDesc">"О последних обновлениях прочтите на официальном сайте Beats  http://beatsportable.com"</string>
+    <string name="websiteTitle">"Сайт"</string>
+</resources>

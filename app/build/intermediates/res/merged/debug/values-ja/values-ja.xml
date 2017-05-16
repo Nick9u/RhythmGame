@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accuracyLevel">
+    <item>簡単すぎる</item>
+    <item>簡単</item>
+    <item>普通</item>
+    <item>難しい</item>
+    <item>非常に難しい</item>
+    <item>無理</item>
+  </string-array>
+    <string-array name="appPriority">
+    <item>普通</item>
+    <item>高</item>
+    <item>非常に高い</item>
+    <item>最高（不安定）</item>
+  </string-array>
+    <string-array name="backgroundImage">
+    <item>青</item>
+    <item>赤</item>
+    <item>白</item>
+  </string-array>
+    <string-array name="difficultyLevel">
+    <item>初心者</item>
+    <item>簡単</item>
+    <item>普通</item>
+    <item>難しい</item>
+    <item>鬼</item>
+  </string-array>
+    <string-array name="gameMode">
+    <item>リバース/ダウン</item>
+    <item>スタンダード/上</item>
+    <item>Osu!Mod</item>
+    <item>Osu!Modランダム</item>
+  </string-array>
+    <string-array name="noteAppearance">
+    <item>表示</item>
+    <item>非表示</item>
+    <item>突然</item>
+    <item>透明</item>
+  </string-array>
+    <string-array name="noteskin">
+    <item>既定</item>
+    <item>翻訳元</item>
+    <item>カスタム</item>
+  </string-array>
+    <string-array name="orientation">
+    <item>横</item>
+    <item>縦</item>
+    <item>端末の向き</item>
+  </string-array>
+    <string-array name="randomize">
+    <item>オフ</item>
+    <item>ランダム</item>
+    <item>ダイナミック</item>
+  </string-array>
+    <string-array name="tapboxLayout">
+    <item>十字パッド</item>
+    <item>湾曲</item>
+    <item>曲線 R</item>
+    <item>標準</item>
+    <item>全画面表示</item>
+  </string-array>
+    <string-array name="toggle">
+    <item>オフ</item>
+    <item>オン</item>
+  </string-array>
+    <string-array name="toggleDefault">
+    <item>既定</item>
+    <item>オフ</item>
+    <item>オン</item>
+  </string-array>
+    <string-array name="vibrateMiss">
+    <item>強い</item>
+    <item>弱い</item>
+    <item>オフ</item>
+  </string-array>
+    <string name="Accuracy_almost">"Almost"</string>
+    <string name="Accuracy_best_combo">"Best Combo"</string>
+    <string name="Accuracy_good">"Good"</string>
+    <string name="Accuracy_great">"Great"</string>
+    <string name="Accuracy_marvelous">Marvelous!</string>
+    <string name="Accuracy_miss">"Miss"</string>
+    <string name="Accuracy_no_good">"No Good"</string>
+    <string name="Accuracy_ok">"OK"</string>
+    <string name="Accuracy_perfect">"Perfect!"</string>
+    <string name="App_description">Beatsは音楽と一緒に遊ぶリズムゲームです</string>
+    <string name="Button_close">閉じる</string>
+    <string name="Button_demo">デモ</string>
+    <string name="Button_download">ダウンロード</string>
+    <string name="Button_error">エラー</string>
+    <string name="Button_install">インストール</string>
+    <string name="Button_no">いいえ</string>
+    <string name="Button_ok">OK</string>
+    <string name="Button_success">成功</string>
+    <string name="Button_updates">更新</string>
+    <string name="Button_warning">注意</string>
+    <string name="Button_yes">はい</string>
+    <string name="DataParser_unsupported">「サポートされていない stepfile:  .sm .dwi .osu ファイルのみ現在サポートされています。」</string>
+    <string name="Difficulty_beginner">初心者</string>
+    <string name="Difficulty_challenge">鬼</string>
+    <string name="Difficulty_easy">簡単</string>
+    <string name="Difficulty_edit">難易度変更</string>
+    <string name="Difficulty_hard">難しい</string>
+    <string name="Difficulty_medium">普通</string>
+    <string name="Difficulty_unknown">不明</string>
+    <string name="GUIGame_by">" by "</string>
+    <string name="GUIGame_dark">暗い</string>
+    <string name="GUIGame_done_complete_1">「戻るキーを押して、戻ります」</string>
+    <string name="GUIGame_done_complete_2">"メインメニューへ"</string>
+    <string name="GUIGame_done_fail_1">"Press BACK and try an"</string>
+    <string name="GUIGame_done_fail_2">"簡単な難易度のレベル"</string>
+    <string name="GUIGame_done_good_1">"戻るキーを押して"</string>
+    <string name="GUIGame_done_good_2">より難易度の高いレベルに挑戦してください</string>
+    <string name="GUIGame_exiting">"終了中"</string>
+    <string name="GUIGame_hidden">", Hidden"</string>
+    <string name="GUIGame_highscore">"新ハイスコア"</string>
+    <string name="GUIGame_invisible">透明</string>
+    <string name="GUIGame_jumps">", Jumps"</string>
+    <string name="GUIGame_nextFrame_error">エラー: nextFrame() failed...\n</string>
+    <string name="GUIGame_no_holds">", No Holds"</string>
+    <string name="GUIGame_osu_mod">", osu! Mod"</string>
+    <string name="GUIGame_paused">"一時停止"</string>
+    <string name="GUIGame_randomize_dynamic">", Rand-D"</string>
+    <string name="GUIGame_randomize_static">", Rand-S"</string>
+    <string name="GUIGame_ready">"READY"</string>
+    <string name="GUIGame_resumed">"再開"</string>
+    <string name="GUIGame_score">"Score: "</string>
+    <string name="GUIGame_score_complete">完了</string>
+    <string name="GUIGame_score_game_over">ゲームオーバー</string>
+    <string name="GUIGame_score_max_combo">"Max Combo! "</string>
+    <string name="GUIGame_standard">標準</string>
+    <string name="GUIGame_sudden">"突然現れる"</string>
+    <string name="GUIHandler_combo">コンボ</string>
+    <string name="GUIHandler_complete">"Complete"</string>
+    <string name="GUIHandler_game_over">"Game Over"</string>
+    <string name="MenuFilechooser_file_delete">"削除"</string>
+    <string name="MenuFilechooser_file_delete_confirm">"本当にファイル/フォルダを削除してもよろしいですか：\ n"</string>
+    <string name="MenuFilechooser_file_delete_error">"ファイル/フォルダを削除できません：\ n"</string>
+    <string name="MenuFilechooser_file_extension_error">"Error: Unable to match file extension with any available file handlers... this shouldn\'t happen... O_o"</string>
+    <string name="MenuFilechooser_file_open">開く</string>
+    <string name="MenuFilechooser_file_open_error">"エラー：ファイルを開くことができません：\ n"</string>
+    <string name="MenuFilechooser_file_options">"ファイルオプション"</string>
+    <string name="MenuFilechooser_list_error">"エラー：ディレクトリ内のファイルを一覧表示することができません：\ n"</string>
+    <string name="MenuFilechooser_music_error">"エラー：音楽ファイルを見つけることができません：\ n"</string>
+    <string name="MenuFilechooser_music_error_stepfile">"\nfor stepfile file:\n"</string>
+    <string name="MenuFilechooser_selected_stepfile">"stepfileファイルが選択されました：\ n"</string>
+    <string name="MenuFilechooser_start_info">"\n\n\"メニュー\" キーで難易度変更\n \"START\" キーを押して曲を再生"</string>
+    <string name="MenuFilechooser_up_dir">".. [1つ上のディレクトリ]"</string>
+    <string name="MenuFilechooser_url_error">"エラー：無効なインターネットのショートカット、リンク先URLを特定することができません。"</string>
+    <string name="MenuHome_background_image_load_fail">"メモリが足りないのでバックグラウンドの読み込みが失敗しました。"</string>
+    <string name="MenuHome_background_sync_fail">"background data の設定を変えるのに失敗しました."</string>
+    <string name="MenuHome_background_sync_undo">"あなたは前 \"Background data\" を止めました. 今設定をアップデートしますか\?"</string>
+    <string name="MenuHome_background_sync_warning">あなたの電話はいま \"Background data\" が機能しています. \"Background data\" を止めると、Beatsがほかのアプリに影響されにくなります. それとも \"Application Priority\" をここで上げることができます \"Advanced Settings\".\n\n \"Background data\" の設定を変えますか\? (Recommended to reduce lag)</string>
+    <string name="MenuHome_legacy_warning">あなたの電話は Android 1.5 (Cupcake) か 1.6 (Donut), がインストールしています. マルチタッチが機能しないのでAndroid 2.1か2.2ヘアプデートしてください。</string>
+    <string name="MenuHome_new_user_notes_title">注釈</string>
+    <string name="MenuHome_release_notes_title">リリースノート</string>
+    <string name="MenuHome_titlebar">"Beats - Advanced Rhythm Game"</string>
+    <string name="MenuSettings_title">"Beats - 設定"</string>
+    <string name="MenuStartGame_choose_new">\n\n新しい曲を選択してください</string>
+    <string name="MenuStartGame_difficulty_closest">\"最も近い難易度は\""</string>
+    <string name="MenuStartGame_difficulty_continue">\".\n\n難易度を変更して続行しますか\?"</string>
+    <string name="MenuStartGame_difficulty_selected">あなたの選択した難易度は\"</string>
+    <string name="MenuStartGame_fail_parse">エラー: stepfile:\nの解析に失敗しました</string>
+    <string name="MenuStartGame_loading_progress_bar">"stepfile：\nをロード中"</string>
+    <string name="MenuStartGame_loading_title">"Loading: "</string>
+    <string name="MenuStartGame_missing_music">音楽ファイルを見つけることができませんでした\n</string>
+    <string name="MenuStartGame_missing_sm">stepfileを見つけることができませんでした\n</string>
+    <string name="MenuStartGame_music_error">音楽ファイルがありません</string>
+    <string name="MenuStartGame_notes_error">サポートされているデータがありません</string>
+    <string name="MenuStartGame_ogg_warning">"The .sm file you have chosen uses an .ogg music file. Due to an Android bug (see Issue 11590), the music may be off-sync with the notes. It is recommended that you try to correct the difference manually using the \"OGG Offset\" setting.\n\nDo you wish to continue\?"</string>
+    <string name="MenuStartGame_osu_warning">"As of the moment, .osu support is still very experimental. Sliders, spinners, Taiko mode and many other features not yet implemented.\n\nIf you encounter any .osu beatmaps that Beats fails to load properly, please email them to me, thanks!\n\n~Keripo"</string>
+    <string name="MenuStartGame_select_music">"Use \"SELECT SONG\" to choose an installed stepfile to play.\n\nIf you do not have any stepfiles installed, use \"DOWNLOAD SONGS\" to visit BeatsPortable.com and read the download/install instructions there."</string>
+    <string name="Menu_auto">自動</string>
+    <string name="Menu_download_songs">曲をダウンロード</string>
+    <string name="Menu_exit">終了</string>
+    <string name="Menu_select_song">曲を選ぶ</string>
+    <string name="Menu_settings">設定</string>
+    <string name="Menu_start">スタート</string>
+    <string name="MusicService_invalid_path">音楽ファイルのパスが無効です\n</string>
+    <string name="MusicService_not_initialized">音楽プレイヤーが初期化されていません</string>
+    <string name="MusicService_unable_create_service">エラー：MusicServiceを作成できません</string>
+    <string name="MusicService_unable_pause_playback">エラー：再生を停止できません。アプリを再起動してみてください</string>
+    <string name="MusicService_unable_resume_playback">エラー：再生を再開できません。アプリを再起動してみてください</string>
+    <string name="MusicService_unable_start_playback">エラー：再生を開始できません。アプリを再起動してみてください</string>
+    <string name="MusicService_unable_stop_playback">エラー：再生を開始できません。アプリを再起動してみてください</string>
+    <string name="ToolsDownloader_download">"ダウンロード："</string>
+    <string name="ToolsDownloader_download_ask">"：\ nから曲のパックをダウンロードしますか"</string>
+    <string name="ToolsDownloader_downloading">ファイルをダウンロード中：\ n</string>
+    <string name="ToolsDownloader_unsupported">"エラー：サポートされていないダウンロードURL。smzipファイルのみをサポートしてます。"</string>
+    <string name="ToolsSampleInstaller_graphics">"Extracting default graphics, please wait..."</string>
+    <string name="ToolsSampleInstaller_installing">サンプル曲パックをインストールしてます。しばらくお待ちください。</string>
+    <string name="ToolsUnzipperActivity_install">"インストール："</string>
+    <string name="ToolsUnzipperActivity_unsupported">"エラー：サポートされていないインストールファイル。Beatsインストーラはzipファイルとsmzipファイルのみをサポートしてます。"</string>
+    <string name="ToolsUnzipper_error_no_stepfiles">曲パックにstepfilesが見つかりません</string>
+    <string name="ToolsUnzipper_install_ask">"パックからstepfilesをインストールしますか？ :\n"</string>
+    <string name="ToolsUnzipper_install_ask_location">"\nBeats song フォルダへ:\n"</string>
+    <string name="ToolsUnzipper_installed_to">にインストールされました</string>
+    <string name="ToolsUnzipper_installing">曲パックをインストール中</string>
+    <string name="ToolsUnzipper_just_deleted">"\n\nファイルを削除しませんでしたか\?"</string>
+    <string name="ToolsUnzipper_please_wait">しばらくお待ちください</string>
+    <string name="ToolsUnzipper_size_ask">"\nは100MBを越えています。インストールには長時間かかるかもしれません。コンピュータから手動でインストールすることをお勧めしますが、\n\nこのまま続けますか\?"</string>
+    <string name="ToolsUnzipper_songpack">曲パック: \n</string>
+    <string name="ToolsUnzipper_unable_install">曲パックからstepfilesをインストールできませんでした。:\n"</string>
+    <string name="ToolsUnzipper_unable_read">"ファイルを読み込めませんでした：\ n"</string>
+    <string name="ToolsUpdateTask_update_ask">"Beatsのアップデートが利用可能です\ n\ nバージョン名：％1 $ S \ nバージョン番号：％2 $ d\ n \ n新しいバージョンをダウンロードしますか？"</string>
+    <string name="Tools_do_not_show_again">これを再び表示しない</string>
+    <string name="Tools_error_msg">"\nエラーメッセージ：\n"</string>
+    <string name="Tools_mount_error">フォルダにアクセスできません</string>
+    <string name="Tools_notify_msg">"\nこのエラーメッセージを報告してください\n~Keripo"</string>
+    <string name="Tools_permissions_error">"\nファイルのパーミッションが正しいか確認してください"</string>
+    <string name="Tools_screenshot_saved">"スクリーンショットが:\nに保存されました"</string>
+    <string name="Tools_unable_create_dir">"エラー：ディレクトリを作成できません：\ n"</string>
+    <string name="Tools_unable_create_file">"エラー：ファイルを作成できません：\ n"</string>
+    <string name="Tools_unable_delete_dir">"エラー：ディレクトリを削除できません：\n"</string>
+    <string name="Tools_unable_delete_file">"エラー：ファイルを削除できません：\n"</string>
+    <string name="Tools_usb_error">"\nUSBモードではありませんか\?"</string>
+    <string name="Tools_window_error">"ウィンドウの切り替えエラー - 私はまだこの問題を解決する方法がわかりません（詳細のデータをメールで送ってください）"</string>
+    <string name="accuracyLevelDesc">スコア判定の厳密度</string>
+    <string name="accuracyLevelTitle">判定</string>
+    <string name="additionalVibrationsDesc">アプリケーションと楽曲スタートアップ時の振動</string>
+    <string name="additionalVibrationsTitle">追加振動</string>
+    <string name="advancedScreenDesc">あなた好みのBeatsにするためのより詳細な設定</string>
+    <string name="advancedScreenTitle">”詳細設定”</string>
+    <string name="appPriorityDesc">増加させることでラグが減少しますが、不安定になる可能性があります。</string>
+    <string name="appPriorityTitle">アプリケーションの優先順位</string>
+    <string name="autoPlayDesc">楽曲のパターン学習機能を自動再生に利用（または笑いのためにｗ）</string>
+    <string name="autoPlayTitle">"自動再生"</string>
+    <string name="autoStartDesc">ファイル選択時に自動開始</string>
+    <string name="autoStartTitle">「自動スタート」</string>
+    <string name="backgroundBrightnessDesc">"背景画像の明るさ"</string>
+    <string name="backgroundBrightnessTitle">"背景の明るさ"</string>
+    <string name="backgroundCategoryTitle">ゲームの背景</string>
+    <string name="backgroundFilteringDesc">背景画像をスムーズにする（有効にするとFPSが減少します）</string>
+    <string name="backgroundFilteringTitle">背景のフィルタリング</string>
+    <string name="backgroundImageDesc">メインメニューと背景画像がないステップファイルの背景画像</string>
+    <string name="backgroundImageTitle">"メニューの背景"</string>
+    <string name="backgroundShowDesc">"Draw the background image"</string>
+    <string name="backgroundShowTitle">背景を表示する</string>
+    <string name="backgroundSongDesc">楽曲固有の背景画像を読み込む</string>
+    <string name="backgroundSongTitle">楽曲の背景を読み込む</string>
+    <string name="betaNotesDesc">次回起動時にベータ ノートを表示</string>
+    <string name="betaNotesTitle">ベータノート</string>
+    <string name="changelogDesc">更新履歴 フォーラムのスレッドが次のリリースのためにアップデートされました</string>
+    <string name="changelogTitle">更新履歴</string>
+    <string name="creditsDesc">開発者についての情報とお世話になった方々</string>
+    <string name="creditsTitle">クレジット</string>
+    <string name="darkDesc">タップ矢印を隠す</string>
+    <string name="darkTitle">暗い</string>
+    <string name="debugLogCatDesc">LogCat に警告/エラーメッセージを印刷する</string>
+    <string name="debugLogCatTitle">LogCat のデバッグ</string>
+    <string name="debugTapboxDesc">正確なtapboxボックスを描画する</string>
+    <string name="debugTapboxTitle">Tapbox のデバッグ</string>
+    <string name="debugTimeDesc">正確な譜面表示と時間差の同期</string>
+    <string name="debugTimeTitle">タイミングのデバッグ</string>
+    <string name="debuggingCategoryTitle">"デバッグ"</string>
+    <string name="demoDesc">Beats の様々な機能のデモビデオ</string>
+    <string name="demoTitle">デモ</string>
+    <string name="difficultyLevelDesc">"楽曲のデフォルトの難易度"</string>
+    <string name="difficultyLevelTitle">難しさ</string>
+    <string name="displaySettingsCategoryTitle">画面の設定</string>
+    <string name="donateDesc">貧しい大学の学生に感謝の意を示してください！ 寄付していただくことで私たちのウェブサイトの維持ができます。</string>
+    <string name="donateTitle">カンパ</string>
+    <string name="filebrowserCategoryTitle">楽曲のブラウジング</string>
+    <string name="forumsDesc">ディスカッションとサポートのためのフォーラム</string>
+    <string name="forumsTitle">"フォーラム"</string>
+    <string name="fullscreenDesc">ステータスとタイトル バーを隠す</string>
+    <string name="fullscreenTitle">"フルスクリーン"</string>
+    <string name="gameModeDesc">譜面の表示モード</string>
+    <string name="gameModeTitle">ゲームモード</string>
+    <string name="gameScreenDesc">"Screen during gameplay"</string>
+    <string name="gameScreenTitle">ゲーム画面</string>
+    <string name="gameSettingsCategoryTitle">ゲームの設定</string>
+    <string name="gameplayCategoryTitle">ゲームプレイ</string>
+    <string name="hardwareAccelerationDesc">FPS を向上させることがあります。</string>
+    <string name="hardwareAccelerationTitle">ハードウェア アクセラレーション</string>
+    <string name="healthMaxDesc">ライフの最大値</string>
+    <string name="healthMaxTitle">ライフ合計</string>
+    <string name="healthPenaltyDesc">譜面一つのミスに対するライフの減少値</string>
+    <string name="healthPenaltyTitle">ライフペナルティ</string>
+    <string name="holdsDesc">押す必要がある譜面</string>
+    <string name="holdsTitle">ホールド</string>
+    <string name="infoCategoryTitle">"情報"</string>
+    <string name="infoScreenDesc">"リンクとビートについての情報"</string>
+    <string name="infoScreenTitle">"情報"</string>
+    <string name="installSamplesDesc">サンプル曲を次回起動時に再インストール</string>
+    <string name="installSamplesTitle">サンプル曲をインストールする</string>
+    <string name="interfaceCategoryTitle">ゲーム界面</string>
+    <string name="jumpsDesc">１行ごとの複数の譜面</string>
+    <string name="jumpsTitle">"ジャンプ"</string>
+    <string name="languageDesc">表示言語の変更</string>
+    <string name="languageTitle">言語</string>
+    <string name="linksCategoryTitle">"リンク"</string>
+    <string name="machineSettingsCategoryTitle">"マシンの設定"</string>
+    <string name="manualOGGOffsetDesc">.oggミュージックファイルが譜面と同期出来ていない場合のみ手動調整します（私は-0.325sを使っています）</string>
+    <string name="manualOGGOffsetTitle">OGGオフセット</string>
+    <string name="manualOffsetDesc">タイミングが同期されていない場合のみ手動で調整します。</string>
+    <string name="manualOffsetTitle">ミュージックオフセット</string>
+    <string name="miscCategoryTitle">"その他"</string>
+    <string name="modifiersScreenDesc">譜面データや外観の設定をします</string>
+    <string name="modifiersScreenTitle">修飾</string>
+    <string name="noteAppearanceDesc">"メモの表示"</string>
+    <string name="noteAppearanceTitle">"外観"</string>
+    <string name="notesCategoryTitle">ノート</string>
+    <string name="noteskinDesc">"Note graphics to load"</string>
+    <string name="noteskinTitle">"Note Skin"</string>
+    <string name="orientationDesc">"ゲーム時のデフォルトの画面の向き"</string>
+    <string name="orientationTitle">"画面の向き"</string>
+    <string name="randomizeDesc">譜面のパターンをランダム化する（ホールド時は無視）</string>
+    <string name="randomizeTitle">"ランダム"</string>
+    <string name="resetHighScoresDesc">次のゲーム開始時に全てのハイスコアをリセット</string>
+    <string name="resetHighScoresTitle">ハイスコアをリセット</string>
+    <string name="resetSettingsDesc">次回起動時にすべての設定をデフォルト値にリセット</string>
+    <string name="resetSettingsTitle">すべての設定をリセット</string>
+    <string name="screenshotModeDesc">ゲームの一時停止時にスクリーンショットを有効にする</string>
+    <string name="screenshotModeTitle">"スクリーンショットモード”</string>
+    <string name="showFPSDesc">"現在と平均のフレームレート（＃フレーム/秒）を表示"</string>
+    <string name="showFPSTitle">FPSをを表示する</string>
+    <string name="showPercentDesc">アルファベットの成績表示の代わりにパーセンテージをスコアボードに表示する。</string>
+    <string name="showPercentTitle">"パーセンテージを表示する"</string>
+    <string name="speedMultiplierDesc">”譜面の落下速度”</string>
+    <string name="speedMultiplierTitle">速さ</string>
+    <string name="stepfileFolderCheckDesc">stepfilesのあるディレクトリを直接開かない。</string>
+    <string name="stepfileFolderCheckTitle">Stepfileフォルダーをチェック</string>
+    <string name="syncDurationDesc">起動と停止/再開時の譜面と音楽の同期持続時間</string>
+    <string name="syncDurationTitle">"オーディオの再同期"</string>
+    <string name="tapSettingsCategoryTitle">タップの設定</string>
+    <string name="tapboxFadingDesc">Tapboxes の透明度</string>
+    <string name="tapboxFadingTitle">"Tapboxフェーディング"</string>
+    <string name="tapboxLayoutDesc">"tapboxesの配置"</string>
+    <string name="tapboxLayoutTitle">"Tapboxレイアウト"</string>
+    <string name="tapboxOverlapDesc">水平方向に重なったtapbox</string>
+    <string name="tapboxOverlapTitle">Tapbox の重複</string>
+    <string name="tapboxYOffsetDesc">tapboxesの垂直方向のシフト</string>
+    <string name="tapboxYOffsetTitle">Tapboxの配置</string>
+    <string name="thanksCategoryTitle">どうも</string>
+    <string name="todoDesc">To-Do リスト フォーラムのスレッドが次のリリースのためにアップデートされました</string>
+    <string name="todoTitle">To-Do リスト</string>
+    <string name="tutorialDesc">Beats の様々な機能のデモビデオ</string>
+    <string name="tutorialTitle">"チュートリアル"</string>
+    <string name="tweaksCategoryTitle">微調整</string>
+    <string name="useShortDirNamesDesc">(...) と [...] のタグを \'楽曲を選択\'のエントリーから削除</string>
+    <string name="useShortDirNamesTitle">フォルダー名を短くする</string>
+    <string name="vibrateHoldDesc">矢印をホールド中は振動を維持</string>
+    <string name="vibrateHoldTitle">ホールド時の振動</string>
+    <string name="vibrateMissDesc">譜面ミスや「自動プレイ」時に譜面にあわせて振動させる</string>
+    <string name="vibrateMissTitle">ミス時の振動</string>
+    <string name="vibrateScreenDesc">"振動/触覚フィードバックの設定"</string>
+    <string name="vibrateScreenTitle">バイブレーション</string>
+    <string name="vibrateTapDesc">矢印タップ時の振動</string>
+    <string name="vibrateTapTitle">タップ時の振動</string>
+    <string name="vibrateTouchSenseDesc">触覚のフィードバックをUHL技術でイマージュする</string>
+    <string name="vibrateTouchSenseTitle">UHLとバイブレーション</string>
+    <string name="websiteDesc">Beatsで最新の更新プログラムを読む\'公式サイトhttp://beatsportable.com</string>
+    <string name="websiteTitle">ホームページ</string>
+</resources>

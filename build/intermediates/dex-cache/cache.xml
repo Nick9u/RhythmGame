@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\2017Android Studio Project\Beats-master1\app\libs\UHL.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9f6e2207f6a895076409cb18b608e82ea2a3e99b">
+        <dex dex="D:\2017Android Studio Project\Beats-master1\app\build\intermediates\pre-dexed\debug\UHL_31e697b4a0bd047ba4fd58d6e7c7a00e17c0dbe8.jar" />
+    </item>
+
+</items>

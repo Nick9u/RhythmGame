@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\2017Android Studio Project\Beats-master1\app\src\main\jniLibs"><file name="armeabi/libImmEmulatorJ.so" path="D:\2017Android Studio Project\Beats-master1\app\src\main\jniLibs\armeabi\libImmEmulatorJ.so"/><file name="x86/libImmEmulatorJ.so" path="D:\2017Android Studio Project\Beats-master1\app\src\main\jniLibs\x86\libImmEmulatorJ.so"/></source></dataSet><dataSet config="debug"><source path="D:\2017Android Studio Project\Beats-master1\app\src\debug\jniLibs"/></dataSet></merger>

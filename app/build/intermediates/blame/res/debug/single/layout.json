@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\2017Android Studio Project\\Beats-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choose.xml",
+        "source": "D:\\2017Android Studio Project\\Beats-master1\\app\\src\\main\\res\\layout\\choose.xml"
+    },
+    {
+        "merged": "D:\\2017Android Studio Project\\Beats-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\2017Android Studio Project\\Beats-master1\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\2017Android Studio Project\\Beats-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notes.xml",
+        "source": "D:\\2017Android Studio Project\\Beats-master1\\app\\src\\main\\res\\layout\\notes.xml"
+    },
+    {
+        "merged": "D:\\2017Android Studio Project\\Beats-master1\\app\\build\\intermediates\\res\\merged\\debug\\layout\\unzipper.xml",
+        "source": "D:\\2017Android Studio Project\\Beats-master1\\app\\src\\main\\res\\layout\\unzipper.xml"
+    }
+]

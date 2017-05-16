@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.beatsportable.beats"
+    android:installLocation="auto"
+    android:versionCode="21"
+    android:versionName="@string/App_version" >
+
+    <uses-sdk
+        android:minSdkVersion="5"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- Localytics -->
+    <uses-permission android:name="android.permission.VIBRATE" /> <!-- Game -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- Updates -->
+    <application
+        android:allowBackup="true"
+        android:description="@string/App_description"
+        android:enabled="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/icon"
+        android:label="@string/App_name" >
+        <activity android:name="com.beatsportable.beats.MenuHome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beatsportable.beats.ToolsDownloader"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+
+            <!--
+				Most websites report .smzip files as of MIME type application/octet-stream
+				so the only real way to handle them would be to directly download the files
+				within Beats, then proceed to installing them.
+            -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:pathPattern=".*\\.smzip"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beatsportable.beats.ToolsUnzipperActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="application/zip" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="application/octet-stream" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:mimeType="application/download" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.smzip"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.zip"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.osz"
+                    android:scheme="file" />
+                <data
+                    android:host="*"
+                    android:mimeType="*/*"
+                    android:pathPattern=".*\\.bin"
+                    android:scheme="file" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.beatsportable.beats.MenuCredits" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <action android:name=".MenuCredits" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.beatsportable.beats.MenuFileChooser"
+            android:configChanges="orientation|keyboardHidden|screenSize" />
+        <activity android:name="com.beatsportable.beats.MenuSettings" />
+        <activity
+            android:name="com.beatsportable.beats.GUIGame"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/Theme.NoBackground" />
+    </application>
+
+</manifest>

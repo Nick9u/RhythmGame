@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\2017Android Studio Project\Beats-master1\app\src\main\assets"><file name="fonts/HappyKiller.ttf" path="D:\2017Android Studio Project\Beats-master1\app\src\main\assets\fonts\HappyKiller.ttf"/></source><source path="D:\2017Android Studio Project\Beats-master1\app\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="D:\2017Android Studio Project\Beats-master1\app\src\debug\assets"/></dataSet></merger>

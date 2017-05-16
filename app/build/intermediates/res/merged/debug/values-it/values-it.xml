@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accuracyLevel">
+    <item>Troppo Facile</item>
+    <item>Facile</item>
+    <item>Normale</item>
+    <item>Difficile</item>
+    <item>Molto Difficile</item>
+    <item>Impossibile</item>
+  </string-array>
+    <string-array name="appPriority">
+    <item>Normale</item>
+    <item>Alta</item>
+    <item>Molto Alta</item>
+    <item>Massima (Instabile)</item>
+  </string-array>
+    <string-array name="backgroundImage">
+    <item>Blu</item>
+    <item>Rosso</item>
+    <item>Bianco</item>
+  </string-array>
+    <string-array name="difficultyLevel">
+    <item>Principiante</item>
+    <item>Facile</item>
+    <item>Medio</item>
+    <item>Difficile</item>
+    <item>Sfida</item>
+  </string-array>
+    <string-array name="gameMode">
+    <item>Invertito/Giù</item>
+    <item>Normale/Su</item>
+    <item>osu! Mod</item>
+    <item>osu! Mod Casuale</item>
+  </string-array>
+    <string-array name="noteAppearance">
+    <item>Visibile</item>
+    <item>Nascosto</item>
+    <item>Improvviso</item>
+    <item>Invisibile</item>
+  </string-array>
+    <string-array name="noteskin">
+    <item>Default</item>
+    <item>Original</item>
+    <item>Custom</item>
+  </string-array>
+    <string-array name="orientation">
+    <item>Orizzontale</item>
+    <item>Verticale</item>
+    <item>Orientabile</item>
+  </string-array>
+    <string-array name="randomize">
+    <item>Disabilitato</item>
+    <item>Statico</item>
+    <item>Dinamico</item>
+  </string-array>
+    <string-array name="tapboxLayout">
+    <item>Frecce Direzionali</item>
+    <item>Arcuato</item>
+    <item>Arcuato-R</item>
+    <item>Normale</item>
+    <item>Schermo Intero</item>
+  </string-array>
+    <string-array name="toggle">
+    <item>Disabilitato</item>
+    <item>Abilitato</item>
+  </string-array>
+    <string-array name="toggleDefault">
+    <item>Default</item>
+    <item>Off</item>
+    <item>On</item>
+  </string-array>
+    <string-array name="vibrateMiss">
+    <item>Forte</item>
+    <item>Leggero</item>
+    <item>Spento</item>
+  </string-array>
+    <string name="Accuracy_almost">"Quasi"</string>
+    <string name="Accuracy_best_combo">"Miglior Sequenza"</string>
+    <string name="Accuracy_good">"Bravo"</string>
+    <string name="Accuracy_great">"Grandioso"</string>
+    <string name="Accuracy_marvelous">"Stupendo!"</string>
+    <string name="Accuracy_miss">"Mancato"</string>
+    <string name="Accuracy_no_good">"Non Bene"</string>
+    <string name="Accuracy_ok">"OK"</string>
+    <string name="Accuracy_perfect">"Perfetto!"</string>
+    <string name="App_description">"Beats è un gioco basato sul ritmo musicale dove devi battere il tempo della musica."</string>
+    <string name="Button_close">"Chiudi"</string>
+    <string name="Button_demo">"Demo"</string>
+    <string name="Button_download">"Download"</string>
+    <string name="Button_error">"Errore"</string>
+    <string name="Button_install">"Installa"</string>
+    <string name="Button_no">"No"</string>
+    <string name="Button_ok">"OK"</string>
+    <string name="Button_success">"Riuscito"</string>
+    <string name="Button_updates">"Aggiornamenti"</string>
+    <string name="Button_warning">"Attenzione"</string>
+    <string name="Button_yes">"Si"</string>
+    <string name="DataParser_unsupported">"Unsupported stepfile: only .sm, .dwi and .osu files are supported currently."</string>
+    <string name="Difficulty_beginner">"Principiante"</string>
+    <string name="Difficulty_challenge">"Sfida"</string>
+    <string name="Difficulty_easy">"Facile"</string>
+    <string name="Difficulty_edit">"Modifica"</string>
+    <string name="Difficulty_hard">"Difficile"</string>
+    <string name="Difficulty_medium">"Medio"</string>
+    <string name="Difficulty_unknown">"Sconosciuto"</string>
+    <string name="GUIGame_by">" da "</string>
+    <string name="GUIGame_dark">", Scuro"</string>
+    <string name="GUIGame_done_complete_1">"Premi BACK per tornare"</string>
+    <string name="GUIGame_done_complete_2">"al menù principale"</string>
+    <string name="GUIGame_done_fail_1">"Premi BACK e prova un"</string>
+    <string name="GUIGame_done_fail_2">"livello di difficoltà inferiore"</string>
+    <string name="GUIGame_done_good_1">"Premi BACK e prova un"</string>
+    <string name="GUIGame_done_good_2">"livello di difficoltà superiore"</string>
+    <string name="GUIGame_exiting">"CHIUDO"</string>
+    <string name="GUIGame_hidden">", Nascosto"</string>
+    <string name="GUIGame_highscore">"New High Score: "</string>
+    <string name="GUIGame_invisible">", Invis"</string>
+    <string name="GUIGame_jumps">", Salti"</string>
+    <string name="GUIGame_nextFrame_error">"Errore: nextFrame() fallito...\n"</string>
+    <string name="GUIGame_no_holds">", No Trattenute"</string>
+    <string name="GUIGame_osu_mod">", osu! Mod"</string>
+    <string name="GUIGame_paused">"IN PAUSA"</string>
+    <string name="GUIGame_randomize_dynamic">", Rand-D"</string>
+    <string name="GUIGame_randomize_static">", Rand-S"</string>
+    <string name="GUIGame_ready">"READY"</string>
+    <string name="GUIGame_resumed">"RIPRESO"</string>
+    <string name="GUIGame_score">"Punteggio: "</string>
+    <string name="GUIGame_score_complete">"Completato: "</string>
+    <string name="GUIGame_score_game_over">"Game Over: "</string>
+    <string name="GUIGame_score_max_combo">"Miglior Sequenza! "</string>
+    <string name="GUIGame_standard">"Standard"</string>
+    <string name="GUIGame_sudden">", Improvviso"</string>
+    <string name="GUIHandler_combo">" COMBO"</string>
+    <string name="GUIHandler_complete">"Completato"</string>
+    <string name="GUIHandler_game_over">"Game Over"</string>
+    <string name="MenuFilechooser_file_delete">"Elimina"</string>
+    <string name="MenuFilechooser_file_delete_confirm">"Sei sicuro di voler eliminare il file/directory:\n"</string>
+    <string name="MenuFilechooser_file_delete_error">"Impossibile eliminare il file/directory:\n"</string>
+    <string name="MenuFilechooser_file_extension_error">"Errore: Impossibile associare l\'estensione del file con i gestori di file disponibili... questo non dovrebbe accadere... O_o"</string>
+    <string name="MenuFilechooser_file_open">"Apri"</string>
+    <string name="MenuFilechooser_file_open_error">"Errore: Impossibile aprire il file:\n"</string>
+    <string name="MenuFilechooser_file_options">"Opzioni File"</string>
+    <string name="MenuFilechooser_list_error">"Errore: Impossibile elencare i file nella directory:\n"</string>
+    <string name="MenuFilechooser_music_error">"Errore: Impossibile trovare il file musicale:\n"</string>
+    <string name="MenuFilechooser_music_error_stepfile">"\ndello stepfile:\n"</string>
+    <string name="MenuFilechooser_selected_stepfile">"Stepfile selezionati:\n"</string>
+    <string name="MenuFilechooser_start_info">"\n\nPremere \"MENU\" (telefono) per modificare la difficoltà\nPremere \"START\" per giocare"</string>
+    <string name="MenuFilechooser_up_dir">".. [directory padre]"</string>
+    <string name="MenuFilechooser_url_error">"Errore: Collegamento Internet non valido, impossibile determinare l\'indirizzo Internet."</string>
+    <string name="MenuHome_background_image_load_fail">"Impossibile caricare l\'immagine di sfondo - memoria esaurita!"</string>
+    <string name="MenuHome_background_sync_fail">"L\'impostazione dei dati in background non può essere modificata."</string>
+    <string name="MenuHome_background_sync_undo">"Precedentemente è stata disabilitata l\'impostazione \"Dati in Background\". Vuoi cambiare l\'impostazione ora\?"</string>
+    <string name="MenuHome_background_sync_warning">"Attualmente il telefono ha l\'opzione \"Dati in Background\" abilitata. Disattivare \"Dati in Background\" aiuta ad evitare che altre applicazioni causino lag al gameplay di Beats. Alternativamente, potresti aumentare \"Priorità Applicazione\" in \"Impostazioni Avanzate\".\n\nVuoi cambiare le impostazioni di \"Dati in Background\"\? (Racommandato per ridurre il lag)"</string>
+    <string name="MenuHome_legacy_warning">"Sul telefono è stato riscontrato Android 1.5 (Cupcake) or 1.6 (Donut), che non supporta pienamente le funzionalità multi-touch. Si raccomanda di aggiornare alla versione 2.1 (Eclair) o successive. Beats può comunque funzionare utilizzando il single-touch, ma molti stepfiles saranno molto difficili da giocare."</string>
+    <string name="MenuHome_new_user_notes_title">"Note per nuovo utente"</string>
+    <string name="MenuHome_release_notes_title">"Beats Release Notes"</string>
+    <string name="MenuHome_titlebar">"Beats - Advanced Rhythm Game"</string>
+    <string name="MenuSettings_title">"Beats - Impostazioni"</string>
+    <string name="MenuStartGame_choose_new">"\n\nCortesemente scegli una nuova canzone."</string>
+    <string name="MenuStartGame_difficulty_closest">"\" ma la difficoltà più vicina è \""</string>
+    <string name="MenuStartGame_difficulty_continue">"\".\n\nVuoi continuare comunque\?"</string>
+    <string name="MenuStartGame_difficulty_selected">"Hai selezionato la difficoltà \""</string>
+    <string name="MenuStartGame_fail_parse">"Errore: Fallita analisi stepfile:\n"</string>
+    <string name="MenuStartGame_loading_progress_bar">"Caricamento stepfile:\n"</string>
+    <string name="MenuStartGame_loading_title">"Loading: "</string>
+    <string name="MenuStartGame_missing_music">"Impossibile trovare il file musicale:\n"</string>
+    <string name="MenuStartGame_missing_sm">"Impossibile trovare stepfile:\n"</string>
+    <string name="MenuStartGame_music_error">"File musicale non trovato."</string>
+    <string name="MenuStartGame_notes_error">"Sono state trovate note non supportate."</string>
+    <string name="MenuStartGame_ogg_warning">"Il file .sm che hai scelto usa un file musicale .ogg. A causa di un bug di Android (vedi Issue 11590), la musica potrebbe non essere sincronizzata con le note. Ti consigliamo di provare a correggere la differenza manualmente utilizzando l\'impostazione \"Scarto OGG\".\n\nVuoi continuare\?"</string>
+    <string name="MenuStartGame_osu_warning">"As of the moment, .osu support is still very experimental. Sliders, spinners, Taiko mode and many other features not yet implemented.\n\nIf you encounter any .osu beatmaps that Beats fails to load properly, please email them to me, thanks!\n\n~Keripo"</string>
+    <string name="MenuStartGame_select_music">"Usa \"SELEZIONA CANZONE\" per scegliere un stepfile installato per giocare.\n\nSe non hai alcun stepfile installato, usa \"DOWNLOAD CANZONI\" per navigare su BeatsPortable.com e leggere le instruzioni di download e installazione."</string>
+    <string name="Menu_auto">" auto "</string>
+    <string name="Menu_download_songs">" song download "</string>
+    <string name="Menu_exit">" uscita "</string>
+    <string name="Menu_select_song">" song selezione "</string>
+    <string name="Menu_settings">" impostazioni "</string>
+    <string name="Menu_start">" inizio "</string>
+    <string name="MusicService_invalid_path">"Percorso del file musicale non valido:\n"</string>
+    <string name="MusicService_not_initialized">"MusicPlayer non inizializzato."</string>
+    <string name="MusicService_unable_create_service">"Errore: Impossibile creare MusicService."</string>
+    <string name="MusicService_unable_pause_playback">"Errore: Impossibile sospendere la riproduzione. Prova a riavviare Beats se il problema permane."</string>
+    <string name="MusicService_unable_resume_playback">"Errore: Impossibile riprendere la riproduzione. Prova a riavviare Beats se il problema permane."</string>
+    <string name="MusicService_unable_start_playback">"Errore: Impossibile iniziare la riproduzione. Prova a riavviare Beats se il problema permane."</string>
+    <string name="MusicService_unable_stop_playback">"Errore: Impossibile fermare la riproduzione. Prova a riavviare Beats se il problema permane."</string>
+    <string name="ToolsDownloader_download">"Download: "</string>
+    <string name="ToolsDownloader_download_ask">"Vuoi scaricare il pacchetto di canzoni da:\n"</string>
+    <string name="ToolsDownloader_downloading">"File in download:\n"</string>
+    <string name="ToolsDownloader_unsupported">"Errore: Url di download non supportato. Beats supporta solo file .smzip."</string>
+    <string name="ToolsSampleInstaller_graphics">"Extracting default graphics, please wait..."</string>
+    <string name="ToolsSampleInstaller_installing">"Estrazione pacchetto canzoni d\'esempio, attendere prego..."</string>
+    <string name="ToolsUnzipperActivity_install">"Installa: "</string>
+    <string name="ToolsUnzipperActivity_unsupported">"Errore: sorgente di installazione non valida. Beats installa solo i file .zip e .smzip."</string>
+    <string name="ToolsUnzipper_error_no_stepfiles">"Nessun stepfiles trovato nel pacchetto."</string>
+    <string name="ToolsUnzipper_install_ask">"Vuoi installare i stepfiles del pacchetto:\n"</string>
+    <string name="ToolsUnzipper_install_ask_location">"\nnella directory delle canzoni di Beats:\n"</string>
+    <string name="ToolsUnzipper_installed_to">"\ninstallato in:\n"</string>
+    <string name="ToolsUnzipper_installing">"Installazione pacchetto canzoni:\n"</string>
+    <string name="ToolsUnzipper_just_deleted">"\n\nForse hai appena eliminato il file\?"</string>
+    <string name="ToolsUnzipper_please_wait">"\nPer favore attendere pazientemente..."</string>
+    <string name="ToolsUnzipper_size_ask">"\nha dimensione maggiore di 100MB. Installare il pacchetto può richiedere tempi molto lunghi. Si consiglia di installare il pacchetto manualmente con il computer.\n\nVuoi procedere comunque\?"</string>
+    <string name="ToolsUnzipper_songpack">"Pacchetto canzoni:\n"</string>
+    <string name="ToolsUnzipper_unable_install">"Impossibile installare i stepfiles del pacchetto:\n"</string>
+    <string name="ToolsUnzipper_unable_read">"Impossibile leggere file:\n"</string>
+    <string name="ToolsUpdateTask_update_ask">"Un nuovo aggiornamento per Beats è disponibile!\n\nVersione nome: %1$s\nNumero di versione: %2$d\n\nVolete scaricare la nuova versione?"</string>
+    <string name="Tools_do_not_show_again">"Non visualizzare di nuovo"</string>
+    <string name="Tools_error_msg">"\nMessaggio di errore:\n"</string>
+    <string name="Tools_mount_error">"Impossibile accedere alla directory di Beats."</string>
+    <string name="Tools_notify_msg">"\nPer cortesia avvisami e comunicami il messaggio d\'errore.\n~Keripo\""</string>
+    <string name="Tools_permissions_error">"\nVerifica di avere i permessi necessari sui file."</string>
+    <string name="Tools_screenshot_saved">"Screenshot saved to:\n"</string>
+    <string name="Tools_unable_create_dir">"Errore: Impossibile creare la directory:\n"</string>
+    <string name="Tools_unable_create_file">"Errore: Impossibile creare il file:\n"</string>
+    <string name="Tools_unable_delete_dir">"Errore: Impossibile cancellare la directory:\n"</string>
+    <string name="Tools_unable_delete_file">"Errore: Impossibile cancellare il file:\n"</string>
+    <string name="Tools_usb_error">"\nForse il telefono è in modalità disco USB\?"</string>
+    <string name="Tools_window_error">"Window switching error - I haven\'t figured out how to fix this yet ; / (please email me details!)"</string>
+    <string name="accuracyLevelDesc">"Rigore nella valutazione del punteggio"</string>
+    <string name="accuracyLevelTitle">"Valutazione"</string>
+    <string name="additionalVibrationsDesc">"Vibrazioni in avvio applicazione e canzoni"</string>
+    <string name="additionalVibrationsTitle">"Vibrazioni Aggiuntive"</string>
+    <string name="advancedScreenDesc">"More settings for customizing Beats to your heart\'s desire!"</string>
+    <string name="advancedScreenTitle">"Impostazioni Avanzate"</string>
+    <string name="appPriorityDesc">"Aumenta per ridurre lag, può causare problemi di instabilità"</string>
+    <string name="appPriorityTitle">"Priorità Applicazione"</string>
+    <string name="autoPlayDesc">"Usa l\'auto-play per imparare gli schemi delle canzoni (o per stupire!)"</string>
+    <string name="autoPlayTitle">"Auto-Play"</string>
+    <string name="autoStartDesc">"Inizia automaticamente il gioco su selezione stepfile"</string>
+    <string name="autoStartTitle">"Auto-Avvio"</string>
+    <string name="backgroundBrightnessDesc">"Luminosità dell\'immagine di sfondo"</string>
+    <string name="backgroundBrightnessTitle">"Luminosità Sfondo"</string>
+    <string name="backgroundCategoryTitle">"Game Background"</string>
+    <string name="backgroundFilteringDesc">"Immagine di sfondo migliorata (se abilitato può ridurre il framerate)"</string>
+    <string name="backgroundFilteringTitle">"Filtro Sfondo"</string>
+    <string name="backgroundImageDesc">"Immagine di sfondo del menù principale e stepfiles che non lo hanno"</string>
+    <string name="backgroundImageTitle">"Menù Sfondo"</string>
+    <string name="backgroundShowDesc">"Draw the background image"</string>
+    <string name="backgroundShowTitle">"Show Background"</string>
+    <string name="backgroundSongDesc">"Load song-specific background image"</string>
+    <string name="backgroundSongTitle">"Load Song Background"</string>
+    <string name="betaNotesDesc">"Visualizza le note della Beta al prossimo avvio"</string>
+    <string name="betaNotesTitle">"Note Beta"</string>
+    <string name="changelogDesc">"Thread del forum con Changelog aggiornato per la prossima release"</string>
+    <string name="changelogTitle">"Log migliorie"</string>
+    <string name="creditsDesc">"Informazioni sugli sviluppatori e tutti quelli da ringraziare"</string>
+    <string name="creditsTitle">"Crediti"</string>
+    <string name="darkDesc">"Nascondi frecce tocco"</string>
+    <string name="darkTitle">"Scuro"</string>
+    <string name="debugLogCatDesc">"Scrivi messaggi di warning/errore in LogCat"</string>
+    <string name="debugLogCatTitle">"LogCat Debug"</string>
+    <string name="debugTapboxDesc">"Disegna le esatte aree di tocco"</string>
+    <string name="debugTapboxTitle">"Debug Area Tocco"</string>
+    <string name="debugTimeDesc">"Visualizza nota esatta e differenze di sincronizzazione tempo"</string>
+    <string name="debugTimeTitle">"Debug Sincronizzazione"</string>
+    <string name="debuggingCategoryTitle">"Debug"</string>
+    <string name="demoDesc">"Video gameplay di Beats"</string>
+    <string name="demoTitle">"Demo"</string>
+    <string name="difficultyLevelDesc">"Livello di difficolta di default per le canzoni"</string>
+    <string name="difficultyLevelTitle">"Livello Difficoltà"</string>
+    <string name="displaySettingsCategoryTitle">"Impostazioni Display"</string>
+    <string name="donateDesc">"Dimostra il tuo ringraziamento ai poveri studenti universitari! Le donazioni mantengono il nostro sito attivo e funzionante"</string>
+    <string name="donateTitle">"Donazione"</string>
+    <string name="filebrowserCategoryTitle">"Browser Canzoni"</string>
+    <string name="forumsDesc">"Discussioni e forum di supporto per Beats"</string>
+    <string name="forumsTitle">"Forum"</string>
+    <string name="fullscreenDesc">"Nascondi barra di stato e del titolo"</string>
+    <string name="fullscreenTitle">"Schermo Intero"</string>
+    <string name="gameModeDesc">"Come visualizzare le note"</string>
+    <string name="gameModeTitle">"Modalità Gioco"</string>
+    <string name="gameScreenDesc">"Screen during gameplay"</string>
+    <string name="gameScreenTitle">"Game Screen"</string>
+    <string name="gameSettingsCategoryTitle">"Impostazioni di Gioco"</string>
+    <string name="gameplayCategoryTitle">"Gameplay"</string>
+    <string name="hardwareAccelerationDesc">May improve FPS</string>
+    <string name="hardwareAccelerationTitle">Hardware Acceleration</string>
+    <string name="healthMaxDesc">"Valore massimo di vita"</string>
+    <string name="healthMaxTitle">"Vita Totale"</string>
+    <string name="healthPenaltyDesc">"Perdita di vita per le note mancate"</string>
+    <string name="healthPenaltyTitle">"Penalità Vita"</string>
+    <string name="holdsDesc">"Note che devono essere premute in modo continuo"</string>
+    <string name="holdsTitle">"Trattenute"</string>
+    <string name="infoCategoryTitle">"Info"</string>
+    <string name="infoScreenDesc">"Link e info su Beats"</string>
+    <string name="infoScreenTitle">"Info"</string>
+    <string name="installSamplesDesc">"Re-installa le canzoni di esempio al prossimo riavvio"</string>
+    <string name="installSamplesTitle">"Installa Canzoni Esempio"</string>
+    <string name="interfaceCategoryTitle">"Game Interface"</string>
+    <string name="jumpsDesc">"Note multiple sulla stessa riga"</string>
+    <string name="jumpsTitle">"Salti"</string>
+    <string name="languageDesc">"Change displayed language"</string>
+    <string name="languageTitle">"Language"</string>
+    <string name="linksCategoryTitle">"Link"</string>
+    <string name="machineSettingsCategoryTitle">"Impostazioni Macchina"</string>
+    <string name="manualOGGOffsetDesc">"Imposta questo manualmente se i brani .ogg non sono sincronizzati (io uso -0.325s)"</string>
+    <string name="manualOGGOffsetTitle">"OGG Offset"</string>
+    <string name="manualOffsetDesc">"Se la musica non è sincronizzata imposta il gap qui"</string>
+    <string name="manualOffsetTitle">"Offset Musica"</string>
+    <string name="miscCategoryTitle">"Varie"</string>
+    <string name="modifiersScreenDesc">"Modificatori note e aspetto"</string>
+    <string name="modifiersScreenTitle">"Modificatori"</string>
+    <string name="noteAppearanceDesc">"Visibilità delle note"</string>
+    <string name="noteAppearanceTitle">"Aspetto"</string>
+    <string name="notesCategoryTitle">"Note"</string>
+    <string name="noteskinDesc">"Note graphics to load"</string>
+    <string name="noteskinTitle">"Note Skin"</string>
+    <string name="orientationDesc">"L\'orientamento dello schermo di default durante il gioco"</string>
+    <string name="orientationTitle">"Orientamento schermo"</string>
+    <string name="randomizeDesc">"Casualità dello schema delle note (trattenute escluse)"</string>
+    <string name="randomizeTitle">"Casualità"</string>
+    <string name="resetHighScoresDesc">"Reset all high scores on next game"</string>
+    <string name="resetHighScoresTitle">"Reset High Scores"</string>
+    <string name="resetSettingsDesc">"Resetta tutte le impostazioni ai valori di default dal prossimo avvio"</string>
+    <string name="resetSettingsTitle">"Resetta Impostazioni"</string>
+    <string name="screenshotModeDesc">"Enable this to take a screenshot when you pause the game"</string>
+    <string name="screenshotModeTitle">"Screenshot Mode"</string>
+    <string name="showFPSDesc">"Display current and average framerate (# of frames updates/sec)"</string>
+    <string name="showFPSTitle">"Visualizza FPS"</string>
+    <string name="showPercentDesc">"Visualizza la percentuale al posto delle lettere nella valutazione"</string>
+    <string name="showPercentTitle">"Esponi Percentuale"</string>
+    <string name="speedMultiplierDesc">"Velocità di discesa delle note"</string>
+    <string name="speedMultiplierTitle">"Velocità"</string>
+    <string name="stepfileFolderCheckDesc">"Disabilita per aprire direttamente cartelle con stepfiles"</string>
+    <string name="stepfileFolderCheckTitle">"Controllo Cartella Stepfile"</string>
+    <string name="syncDurationDesc">"Durata sincronizzazione note-audio in partenza e pausa/ripresa"</string>
+    <string name="syncDurationTitle">"Risincronizzazione Audio"</string>
+    <string name="tapSettingsCategoryTitle">"Impostazioni Tocco"</string>
+    <string name="tapboxFadingDesc">"Trasparenza delle aree di tocco"</string>
+    <string name="tapboxFadingTitle">"Dissolvenza Area Tocco"</string>
+    <string name="tapboxLayoutDesc">"Disposizione delle aree di tocco"</string>
+    <string name="tapboxLayoutTitle">"Disposizione Area Tocco"</string>
+    <string name="tapboxOverlapDesc">"Sovrapposizione orizzontale delle aree di tocco adiacenti"</string>
+    <string name="tapboxOverlapTitle">"Sovrapposizione Area Tocco"</string>
+    <string name="tapboxYOffsetDesc">"Posizionamento verticale delle aree di tocco"</string>
+    <string name="tapboxYOffsetTitle">"Posizionamento Area Tocco"</string>
+    <string name="thanksCategoryTitle">"Ringraziamenti"</string>
+    <string name="todoDesc">"Thread del forum con To-Do List aggiornata per la prossima release"</string>
+    <string name="todoTitle">"To-Do List"</string>
+    <string name="tutorialDesc">"Video guida che dimostra varie caratteristiche di Beats"</string>
+    <string name="tutorialTitle">"Guida"</string>
+    <string name="tweaksCategoryTitle">"Tweaks"</string>
+    <string name="useShortDirNamesDesc">"Remove (...) and [...] tags from folder entries in \'SELECT MUSIC\'"</string>
+    <string name="useShortDirNamesTitle">"Abbreviazioni Nomi Dir"</string>
+    <string name="vibrateHoldDesc">"Keep vibrating during hold arrows"</string>
+    <string name="vibrateHoldTitle">"Vibrate on Holds"</string>
+    <string name="vibrateMissDesc">"Vibrazione quando si manca una nota o al tocco in Auto-Play"</string>
+    <string name="vibrateMissTitle">"Vibra Mancate"</string>
+    <string name="vibrateScreenDesc">"Vibration/haptic feedback settings"</string>
+    <string name="vibrateScreenTitle">"Vibrations"</string>
+    <string name="vibrateTapDesc">"Vibrazione al tocco delle note"</string>
+    <string name="vibrateTapTitle">"Vibra al Tocco"</string>
+    <string name="vibrateTouchSenseDesc">"Haptic feedback with Immersion\'s Universal Haptic Layer (UHL) technology"</string>
+    <string name="vibrateTouchSenseTitle">"Vibrate with UHL"</string>
+    <string name="websiteDesc">"Read the latest updates at Beats\' official website http://beatsportable.com"</string>
+    <string name="websiteTitle">"Sito Web"</string>
+</resources>

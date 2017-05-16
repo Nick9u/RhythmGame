@@ -1,0 +1,945 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="accuracyLevel">
+    <item>Too Easy</item>
+    <item>Easy</item>
+    <item>Normal</item>
+    <item>Hard</item>
+    <item>Very Hard</item>
+    <item>Impossible</item>
+  </string-array>
+    <string-array name="accuracyLevelValues">
+		<item>75</item>
+		<item>60</item>
+		<item>45</item>
+		<item>30</item>
+		<item>15</item>
+		<item>1</item>
+	</string-array>
+    <string-array name="appPriority">
+    <item>Normal</item>
+    <item>High</item>
+    <item>Very High</item>
+    <item>Highest (Unstable)</item>
+  </string-array>
+    <string-array name="appPriorityValues">
+		<item>0</item>
+		<item>-8</item>
+		<item>-16</item>
+		<item>-19</item>
+	</string-array>
+    <string-array name="backgroundBrightness">
+		<item>100%</item>
+		<item>75%</item>
+		<item>50%</item>
+		<item>25%</item>
+		<item>10%</item>
+	</string-array>
+    <string-array name="backgroundBrightnessValues">
+		<item>100</item>
+		<item>75</item>
+		<item>50</item>
+		<item>25</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="backgroundImage">
+    <item>Blue</item>
+    <item>Red</item>
+    <item>White</item>
+  </string-array>
+    <string-array name="backgroundImageValues">
+		<item>blue</item>
+		<item>red</item>
+		<item>white</item>
+	</string-array>
+    <string-array name="difficultyLevel">
+    <item>Beginner</item>
+    <item>Easy</item>
+    <item>Medium</item>
+    <item>Hard</item>
+    <item>Challenge</item>
+  </string-array>
+    <string-array name="difficultyLevelValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+	</string-array>
+    <string-array name="gameMode">
+    <item>Reverse/Down</item>
+    <item>Standard/Up</item>
+    <item>osu! Mod</item>
+    <item>osu! Mod Rand</item>
+  </string-array>
+    <string-array name="gameModeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="healthMax">
+		<item>50 HP</item>
+		<item>100 HP</item>
+		<item>200 HP</item>
+		<item>500 HP</item>
+		<item>9000+ HP</item>
+	</string-array>
+    <string-array name="healthMaxValues">
+		<item>500</item>
+		<item>1000</item>
+		<item>2000</item>
+		<item>5000</item>
+		<item>99999</item>
+	</string-array>
+    <string-array name="healthPenalty">
+		<item>-2 HP</item>
+		<item>-4 HP</item>
+		<item>-6 HP</item>
+		<item>-8 HP</item>
+		<item>-10 HP</item>
+	</string-array>
+    <string-array name="healthPenaltyValues">
+		<item>20</item>
+		<item>40</item>
+		<item>60</item>
+		<item>80</item>
+		<item>100</item>
+	</string-array>
+    <string-array name="languages">
+		<item>Default</item>
+		<item>English</item>
+		<item>Deutsch</item>
+		<item>Español</item>
+		<item>Suomalainen</item>
+		<item>Français</item>
+		<item>Italiano</item>
+		<item>日本</item>
+		<item>한국어</item>
+		<item>Nederlands</item>
+		<item>Português</item>
+		<item>Português (BR)</item>
+		<item>Română</item>
+		<item>русский язык</item>
+		<item>Türkçe</item>
+		<item>中文[简体]</item>
+		<item>中文[繁體]</item>
+	</string-array>
+    <string-array name="languagesValues">
+		<item>default</item>
+		<item>en</item>
+		<item>de</item>
+		<item>es</item>
+		<item>fi</item>
+		<item>fr</item>
+		<item>it</item>
+		<item>ja</item>
+		<item>ko</item>
+		<item>nl</item>
+		<item>pt</item>
+		<item>pt-rBR</item>
+		<item>ro</item>
+		<item>ru</item>
+		<item>tr</item>
+		<item>zh</item>
+		<item>zh-rTW</item>
+	</string-array>
+    <string-array name="manualOffset">
+		<item>-0.400s</item>
+		<item>-0.387s</item>
+		<item>-0.375s</item>
+		<item>-0.362s</item>
+		<item>-0.350s</item>
+		<item>-0.337s</item>
+		<item>-0.325s</item>
+		<item>-0.312s</item>
+		<item>-0.300s</item>
+		<item>-0.287s</item>
+		<item>-0.275s</item>
+		<item>-0.262s</item>
+		<item>-0.250s</item>
+		<item>-0.237s</item>
+		<item>-0.225s</item>
+		<item>-0.212s</item>
+		<item>-0.200s</item>
+		<item>-0.187s</item>
+		<item>-0.175s</item>
+		<item>-0.162s</item>
+		<item>-0.150s</item>
+		<item>-0.137s</item>
+		<item>-0.125s</item>
+		<item>-0.112s</item>
+		<item>-0.100s</item>
+		<item>-0.087s</item>
+		<item>-0.075s</item>
+		<item>-0.062s</item>
+		<item>-0.050s</item>
+		<item>-0.037s</item>
+		<item>-0.025s</item>
+		<item>-0.012s</item>
+		<item>+0.000s</item>
+		<item>+0.012s</item>
+		<item>+0.025s</item>
+		<item>+0.037s</item>
+		<item>+0.050s</item>
+		<item>+0.062s</item>
+		<item>+0.075s</item>
+		<item>+0.087s</item>
+		<item>+0.100s</item>
+		<item>+0.112s</item>
+		<item>+0.125s</item>
+		<item>+0.137s</item>
+		<item>+0.150s</item>
+		<item>+0.162s</item>
+		<item>+0.175s</item>
+		<item>+0.187s</item>
+		<item>+0.200s</item>
+		<item>+0.212s</item>
+		<item>+0.225s</item>
+		<item>+0.237s</item>
+		<item>+0.250s</item>
+		<item>+0.262s</item>
+		<item>+0.275s</item>
+		<item>+0.287s</item>
+		<item>+0.300s</item>
+		<item>+0.312s</item>
+		<item>+0.325s</item>
+		<item>+0.337s</item>
+		<item>+0.350s</item>
+		<item>+0.362s</item>
+		<item>+0.375s</item>
+		<item>+0.387s</item>
+		<item>+0.400s</item>
+	</string-array>
+    <string-array name="manualOffsetValues">
+		<item>-400</item>
+		<item>-387</item>
+		<item>-375</item>
+		<item>-362</item>
+		<item>-350</item>
+		<item>-337</item>
+		<item>-325</item>
+		<item>-312</item>
+		<item>-300</item>
+		<item>-287</item>
+		<item>-275</item>
+		<item>-262</item>
+		<item>-250</item>
+		<item>-237</item>
+		<item>-225</item>
+		<item>-212</item>
+		<item>-200</item>
+		<item>-187</item>
+		<item>-175</item>
+		<item>-162</item>
+		<item>-150</item>
+		<item>-137</item>
+		<item>-125</item>
+		<item>-112</item>
+		<item>-100</item>
+		<item>-87</item>
+		<item>-75</item>
+		<item>-62</item>
+		<item>-50</item>
+		<item>-37</item>
+		<item>-25</item>
+		<item>-12</item>
+		<item>0</item>
+		<item>12</item>
+		<item>25</item>
+		<item>37</item>
+		<item>50</item>
+		<item>62</item>
+		<item>75</item>
+		<item>87</item>
+		<item>100</item>
+		<item>112</item>
+		<item>125</item>
+		<item>137</item>
+		<item>150</item>
+		<item>162</item>
+		<item>175</item>
+		<item>187</item>
+		<item>200</item>
+		<item>212</item>
+		<item>225</item>
+		<item>237</item>
+		<item>250</item>
+		<item>262</item>
+		<item>275</item>
+		<item>287</item>
+		<item>300</item>
+		<item>312</item>
+		<item>325</item>
+		<item>337</item>
+		<item>350</item>
+		<item>362</item>
+		<item>375</item>
+		<item>387</item>
+		<item>400</item>
+	</string-array>
+    <string-array name="noteAppearance">
+    <item>Visible</item>
+    <item>Hidden</item>
+    <item>Sudden</item>
+    <item>Invisible</item>
+  </string-array>
+    <string-array name="noteAppearanceValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+	</string-array>
+    <string-array name="noteskin">
+    <item>Default</item>
+    <item>Original</item>
+    <item>Custom</item>
+  </string-array>
+    <string-array name="noteskinValues">
+		<item>default</item>
+		<item>original</item>
+		<item>custom</item>
+	</string-array>
+    <string-array name="orientation">
+    <item>Landscape</item>
+    <item>Portrait</item>
+    <item>Rotatable</item>
+  </string-array>
+    <string-array name="orientationValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="randomize">
+    <item>Off</item>
+    <item>Static</item>
+    <item>Dynamic</item>
+  </string-array>
+    <string-array name="randomizeValues">
+		<item>0</item>
+		<item>1</item>
+		<item>2</item>
+	</string-array>
+    <string-array name="speedMultiplier">
+		<item>1.00x</item>
+		<item>1.25x</item>
+		<item>1.50x</item>
+		<item>1.75x</item>
+		<item>2.00x</item>
+		<item>2.25x</item>
+		<item>2.50x</item>
+		<item>2.75x</item>
+		<item>3.00x</item>
+		<item>3.50x</item>
+		<item>4.00x</item>
+		<item>5.00x</item>
+		<item>6.00x</item>
+		<item>7.00x</item>
+		<item>8.00x</item>
+		<item>9.00x</item>
+		<item>10.0x</item>
+	</string-array>
+    <string-array name="speedMultiplierValues">
+		<item>1</item>
+		<item>1.25</item>
+		<item>1.5</item>
+		<item>1.75</item>
+		<item>2</item>
+		<item>2.25</item>
+		<item>2.5</item>
+		<item>2.75</item>
+		<item>3</item>
+		<item>3.5</item>
+		<item>4</item>
+		<item>5</item>
+		<item>6</item>
+		<item>7</item>
+		<item>8</item>
+		<item>9</item>
+		<item>10</item>
+	</string-array>
+    <string-array name="syncDuration">
+		<item>0.50s</item>
+		<item>1.00s</item>
+		<item>1.50s</item>
+		<item>2.00s</item>
+	</string-array>
+    <string-array name="syncDurationValues">
+		<item>256</item>
+		<item>512</item>
+		<item>768</item>
+		<item>1024</item>
+	</string-array>
+    <string-array name="tapboxLayout">
+    <item>D-Pad</item>
+    <item>Curved</item>
+    <item>Curved-R</item>
+    <item>Standard</item>
+    <item>Fullscreen</item>
+  </string-array>
+    <string-array name="tapboxLayoutValues">
+		<item>d-pad</item>
+		<item>curved</item>
+		<item>curved-r</item>
+		<item>standard</item>
+		<item>fullscreen</item>
+	</string-array>
+    <string-array name="tapboxOverlap">
+		<item>0%</item>
+		<item>10%</item>
+		<item>20%</item>
+		<item>30%</item>
+		<item>40%</item>
+	</string-array>
+    <string-array name="tapboxOverlapValues">
+		<item>0</item>
+		<item>0.1</item>
+		<item>0.2</item>
+		<item>0.3</item>
+		<item>0.4</item>
+	</string-array>
+    <string-array name="tapboxYOffset">
+		<item>+70 px</item>
+		<item>+60 px</item>
+		<item>+50 px</item>
+		<item>+40 px</item>
+		<item>+30 px</item>
+		<item>+20 px</item>
+		<item>+10 px</item>
+		<item>+0 px</item>
+		<item>-10 px</item>
+		<item>-20 px</item>
+		<item>-30 px</item>
+		<item>-40 px</item>
+		<item>-50 px</item>
+		<item>-60 px</item>
+		<item>-70 px</item>
+	</string-array>
+    <string-array name="tapboxYOffsetValues">
+		<item>70</item>
+		<item>60</item>
+		<item>50</item>
+		<item>40</item>
+		<item>30</item>
+		<item>20</item>
+		<item>10</item>
+		<item>0</item>
+		<item>-10</item>
+		<item>-20</item>
+		<item>-30</item>
+		<item>-40</item>
+		<item>-50</item>
+		<item>-60</item>
+		<item>-70</item>
+	</string-array>
+    <string-array name="toggle">
+    <item>Off</item>
+    <item>On</item>
+  </string-array>
+    <string-array name="toggleDefault">
+    <item>Default</item>
+    <item>Off</item>
+    <item>On</item>
+  </string-array>
+    <string-array name="toggleDefaultValues">
+		<item>-1</item>
+	    <item>0</item>
+		<item>1</item>
+	</string-array>
+    <string-array name="toggleValues">
+		<item>0</item>
+		<item>1</item>
+	</string-array>
+    <string-array name="vibrateMiss">
+    <item>Heavy</item>
+    <item>Light</item>
+    <item>Off</item>
+  </string-array>
+    <string-array name="vibrateMissValues">
+		<item>2</item>
+		<item>1</item>
+		<item>0</item>
+	</string-array>
+    <string name="Accuracy_almost">"Almost"</string>
+    <string name="Accuracy_best_combo">"Best Combo"</string>
+    <string name="Accuracy_good">"Good"</string>
+    <string name="Accuracy_great">"Great"</string>
+    <string name="Accuracy_marvelous">"Marvelous!"</string>
+    <string name="Accuracy_miss">"Miss"</string>
+    <string name="Accuracy_no_good">"No Good"</string>
+    <string name="Accuracy_ok">"OK"</string>
+    <string name="Accuracy_perfect">"Perfect!"</string>
+    <string name="App_description">"Beats is a music rhythm game where you tap to the beat of the music of installed song packs."</string>
+    <string name="App_name">"Beats"</string>
+    <string name="App_version">"1.7.5b FINAL"</string>
+    <string name="Button_close">"Close"</string>
+    <string name="Button_demo">"Demo"</string>
+    <string name="Button_download">"Download"</string>
+    <string name="Button_error">"Error"</string>
+    <string name="Button_install">"Install"</string>
+    <string name="Button_no">"No"</string>
+    <string name="Button_ok">"OK"</string>
+    <string name="Button_success">"Success"</string>
+    <string name="Button_updates">"Updates"</string>
+    <string name="Button_warning">"Warning"</string>
+    <string name="Button_yes">"Yes"</string>
+    <string name="DataParser_unsupported">"Unsupported stepfile: only .sm, .dwi and .osu files are supported currently."</string>
+    <string name="Difficulty_beginner">"Beginner"</string>
+    <string name="Difficulty_challenge">"Challenge"</string>
+    <string name="Difficulty_easy">"Easy"</string>
+    <string name="Difficulty_edit">"Edit"</string>
+    <string name="Difficulty_hard">"Hard"</string>
+    <string name="Difficulty_medium">"Medium"</string>
+    <string name="Difficulty_unknown">"Unknown"</string>
+    <string name="GUIGame_by">" by "</string>
+    <string name="GUIGame_dark">", Dark"</string>
+    <string name="GUIGame_done_complete_1">"Press BACK to return"</string>
+    <string name="GUIGame_done_complete_2">"to the main menu"</string>
+    <string name="GUIGame_done_fail_1">"Press BACK and try an"</string>
+    <string name="GUIGame_done_fail_2">"easier difficulty level"</string>
+    <string name="GUIGame_done_good_1">"Press BACK and try a"</string>
+    <string name="GUIGame_done_good_2">"harder difficulty level"</string>
+    <string name="GUIGame_exiting">"EXITING"</string>
+    <string name="GUIGame_hidden">", Hidden"</string>
+    <string name="GUIGame_highscore">"New High Score: "</string>
+    <string name="GUIGame_invisible">", Invis"</string>
+    <string name="GUIGame_jumps">", Jumps"</string>
+    <string name="GUIGame_nextFrame_error">"Error: nextFrame() failed...\n"</string>
+    <string name="GUIGame_no_holds">", No Holds"</string>
+    <string name="GUIGame_osu_mod">", osu! Mod"</string>
+    <string name="GUIGame_paused">"PAUSED"</string>
+    <string name="GUIGame_randomize_dynamic">", Rand-D"</string>
+    <string name="GUIGame_randomize_static">", Rand-S"</string>
+    <string name="GUIGame_ready">"READY"</string>
+    <string name="GUIGame_resumed">"RESUMED"</string>
+    <string name="GUIGame_score">"Score: "</string>
+    <string name="GUIGame_score_complete">"Complete: "</string>
+    <string name="GUIGame_score_game_over">"Game Over: "</string>
+    <string name="GUIGame_score_max_combo">"Max Combo! "</string>
+    <string name="GUIGame_standard">"Standard"</string>
+    <string name="GUIGame_sudden">", Sudden"</string>
+    <string name="GUIHandler_combo">" COMBO"</string>
+    <string name="GUIHandler_complete">"Complete"</string>
+    <string name="GUIHandler_game_over">"Game Over"</string>
+    <string name="Letter_A">"A"</string>
+    <string name="Letter_AA">"AA"</string>
+    <string name="Letter_AAA">"AAA"</string>
+    <string name="Letter_B">"B"</string>
+    <string name="Letter_C">"C"</string>
+    <string name="Letter_D">"D"</string>
+    <string name="Letter_E">"E"</string>
+    <string name="Letter_unknown">"\?\?\?"</string>
+    <string name="Localytics_key">"7e17c9425cf4aec59bccf6f-8039babc-3418-11e0-c2c6-007af5bd88a0"</string>
+    <string name="MenuFilechooser_file_delete">"Delete"</string>
+    <string name="MenuFilechooser_file_delete_confirm">"Are you sure you want to delete the file/folder:\n"</string>
+    <string name="MenuFilechooser_file_delete_error">"Unable to delete file/folder:\n"</string>
+    <string name="MenuFilechooser_file_extension_error">"Error: Unable to match file extension with any available file handlers... this shouldn\'t happen... O_o"</string>
+    <string name="MenuFilechooser_file_open">"Open"</string>
+    <string name="MenuFilechooser_file_open_error">"Error: Unable to open file:\n"</string>
+    <string name="MenuFilechooser_file_options">"File Options"</string>
+    <string name="MenuFilechooser_list_error">"Error: Unable to list files in directory:\n"</string>
+    <string name="MenuFilechooser_music_error">"Error: Unable to find music file:\n"</string>
+    <string name="MenuFilechooser_music_error_stepfile">"\nfor stepfile file:\n"</string>
+    <string name="MenuFilechooser_selected_stepfile">"Selected stepfile file:\n"</string>
+    <string name="MenuFilechooser_start_info">"\n\nPress \"MENU\" (phone) to change difficulty\nPress \"START\" to play the song"</string>
+    <string name="MenuFilechooser_up_dir">".. [up one directory]"</string>
+    <string name="MenuFilechooser_url_error">"Error: Invalid internet shortcut, unable to determine linked url."</string>
+    <string name="MenuHome_background_image_load_fail">"Unable to load background image - out of memory!"</string>
+    <string name="MenuHome_background_sync_fail">"The background data setting could not be modified."</string>
+    <string name="MenuHome_background_sync_undo">"You previously disabled your \"Background data\" setting. Would you like to update the setting now\?"</string>
+    <string name="MenuHome_background_sync_warning">"Your phone currently has \"Background data\" enabled. Turning off \"Background data\" helps prevent other apps from causing Beats gameplay to lag. Alternatively, you can increase \"Application Priority\" in \"Advanced Settings\".\n\nDo you wish to change your \"Background data\" setting\? (Recommended to reduce lag)"</string>
+    <string name="MenuHome_legacy_warning">"Your phone is currently running Android 1.5 (Cupcake) or 1.6 (Donut), which do not fully support multi-touch capabilities. It is highly recommended you upgrade to 2.1 (Eclair) or higher. Beats can still run with single-touch but many stepfiles will be very difficult to play."</string>
+    <string name="MenuHome_new_user_notes">
+"~ What is Beats\? ~
+Thank you for downloading the beta release of Beats. \"Beats, Advanced Rhythm Game\" is a music-based rhythm game for Google Android phones/devices. Press arrows to the beat of songs StepMania/DDR style or tap circles osu!/Ouendan style! Similar to Dance Dance Revolution (DDR), Beatmania IIDX, DJ Max, Tap Tap Revenge, Osu! Tatakae! Ouendan, Elite Beat Agents, Project DIVA, etc.
+
+Like most rhythm games, Beats has a VERY steep learning curve. New players may want to change the default difficulty from \"Medium\" to \"Easy\". Some downloaded songs are only meant for hardcore StepMania/osu! players.
+
+Beats currently does NOT auto-generate stepfiles for the music files you already have on your phone. Beats comes with a sample song pack that installs on first run, but there are PLENTY more that you can download from the internet!
+
+~ Songs ~
+Use \"DOWNLOAD SONGS\" to download more songs from BeatsPortable via your web browser. The custom Google search engine will let you find songs from popular stepfile sites on the internet.
+
+StepMania players can copy over their current collections directly to the Beats/Songs folder on your SD card. Beats currently only supports user-generated stepfiles that follow the StepMania 3.9 \".sm\" format and the Dance With Intensity v2.50.00 \".dwi\" format. There is currently only partial support for the osu! v5 \".osu\" format. More file formats will be supported in Beats2 - see http://code.google.com/p/beatsportable/.
+
+~ Gameplay ~
+To get started, use \"SELECT SONG\" to browse to and select the song/stepfile you want to play (a stepfile is the pattern of notes that corresponds to a song).
+
+If you\'re new to rhythm-based games, here\'s the general idea: wait until the notes reach the arrows at the bottom of the screen and then tap the arrows. In the \"osu! Mod\" Game Mode, instead of tapping the arrows at the bottom, tap the circles when the outer ring matches the circle.
+
+The more on-beat you are, the better your score! You can also pause your game at any time by pressing your phone\'s MENU or SEARCH keys. Check out the demo video to see Beats in action! 
+
+Make sure to explore the \"SETTINGS\" section afterwards to check out all the cool modifiers/tweaks you can use to improve your gameplay experience. Important settings worth checking out are \"Game Mode\", \"Tapbox Layout\", and \"Modifiers\".
+
+~ Feedback/Bugs ~
+If you encounter any major bugs or have suggestions, please visit BeatsPortable website and post on the forums. If you would like to help with testing the latest development build of Beats or would like to help translate Beats to another language, please visit our Google group via the website's Update tab.
+
+Enjoy the beta release!
+
+~Keripo
+"
+</string>
+    <string name="MenuHome_new_user_notes_title">"New User Notes"</string>
+    <string name="MenuHome_release_notes">
+"This is the final major version of Beats 1.x.
+No new major features will be added apart from periodic bugfixes.
+The open source code can be found at https://github.com/Keripo/Beats
+Future development will continue with the open source \"Beats2\" project.
+See http://beatsportable.com for the latest updates.
+
+Beats 1.7.5b FINAL - [6808bdf]
+- add basic AmazonTV remote/controller support
+- add more speed multiplier options
+- remove AdMob (no more ads, yay!)
+- fix a few crashes (Android 2.2 users should upgrade their phones...)
+
+~Keripo
+
+Disclaimer:
+This beta release is for use as is, no warrantees expressed or implied. We are not responsible for any damage that may result from usage of this app. Information may be collected via Localytics for feature testing and feedback purposes.
+"
+</string>
+    <string name="MenuHome_release_notes_title">"Beats Release Notes"</string>
+    <string name="MenuHome_titlebar">"Beats - Advanced Rhythm Game"</string>
+    <string name="MenuSettings_title">"Beats - Settings"</string>
+    <string name="MenuStartGame_choose_new">"\n\nPlease choose a new song."</string>
+    <string name="MenuStartGame_difficulty_closest">"\" but the closest difficulty is \""</string>
+    <string name="MenuStartGame_difficulty_continue">"\".\n\nDo you wish to continue anyway\?"</string>
+    <string name="MenuStartGame_difficulty_selected">"Your selected difficulty is \""</string>
+    <string name="MenuStartGame_fail_parse">"Error: Failed to parse stepfile:\n"</string>
+    <string name="MenuStartGame_loading_progress_bar">"Loading stepfile:\n"</string>
+    <string name="MenuStartGame_loading_title">"Loading: "</string>
+    <string name="MenuStartGame_missing_music">"Unable to find music file:\n"</string>
+    <string name="MenuStartGame_missing_sm">"Unable to find stepfile:\n"</string>
+    <string name="MenuStartGame_music_error">"No music file found."</string>
+    <string name="MenuStartGame_notes_error">"No supported notes data found."</string>
+    <string name="MenuStartGame_ogg_warning">"The .sm file you have chosen uses an .ogg music file. Due to an Android bug (see Issue 11590), the music may be off-sync with the notes. It is recommended that you try to correct the difference manually using the \"OGG Offset\" setting.\n\nDo you wish to continue\?"</string>
+    <string name="MenuStartGame_osu_warning">"As of the moment, .osu support is still very experimental. Sliders, spinners, Taiko mode and many other features not yet implemented.\n\nIf you encounter any .osu beatmaps that Beats fails to load properly, please email them to me, thanks!\n\n~Keripo"</string>
+    <string name="MenuStartGame_select_music">"Use \"SELECT SONG\" to choose an installed stepfile to play.\n\nIf you do not have any stepfiles installed, use \"DOWNLOAD SONGS\" to visit BeatsPortable.com and read the download/install instructions there."</string>
+    <string name="Menu_auto">" auto "</string>
+    <string name="Menu_download_songs">" download songs "</string>
+    <string name="Menu_exit">" exit "</string>
+    <string name="Menu_select_song">" select song "</string>
+    <string name="Menu_settings">" settings "</string>
+    <string name="Menu_start">" start "</string>
+    <string name="MusicService_invalid_path">"Invalid music file path:\n"</string>
+    <string name="MusicService_not_initialized">"MusicPlayer not initialized."</string>
+    <string name="MusicService_unable_create_service">"Error: Unable to create MusicService."</string>
+    <string name="MusicService_unable_pause_playback">"Error: Unable to pause playback. Try restarting Beats if this persists."</string>
+    <string name="MusicService_unable_resume_playback">"Error: Unable to resume playback. Try restarting Beats if this persists."</string>
+    <string name="MusicService_unable_start_playback">"Error: Unable to start playback. Try restarting Beats if this persists."</string>
+    <string name="MusicService_unable_stop_playback">"Error: Unable to stop playback. Try restarting Beats if this persists."</string>
+    <string name="Titlebar">"Beats - "</string>
+    <string name="ToolsDownloader_download">"Download: "</string>
+    <string name="ToolsDownloader_download_ask">"Would you like to download song pack from:\n"</string>
+    <string name="ToolsDownloader_downloading">"Downloading file:\n"</string>
+    <string name="ToolsDownloader_unsupported">"Error: Unsupported download url. Beats downloader only supports .smzip files."</string>
+    <string name="ToolsSampleInstaller_graphics">"Extracting default graphics, please wait..."</string>
+    <string name="ToolsSampleInstaller_installing">"Extracting sample stepfile pack, please wait..."</string>
+    <string name="ToolsUnzipperActivity_install">"Install: "</string>
+    <string name="ToolsUnzipperActivity_unsupported">"Error: Unsupported install source. Beats installer only supports .zip and .smzip files."</string>
+    <string name="ToolsUnzipper_error_no_stepfiles">"No stepfiles found in pack."</string>
+    <string name="ToolsUnzipper_install_ask">"Would you like to install stepfiles from pack:\n"</string>
+    <string name="ToolsUnzipper_install_ask_location">"\nto Beats song folder:\n"</string>
+    <string name="ToolsUnzipper_installed_to">"\ninstalled to:\n"</string>
+    <string name="ToolsUnzipper_installing">"Installing song pack:\n"</string>
+    <string name="ToolsUnzipper_just_deleted">"\n\nMaybe you just deleted the file\?"</string>
+    <string name="ToolsUnzipper_please_wait">"\nPlease wait patiently..."</string>
+    <string name="ToolsUnzipper_size_ask">"\nis bigger than 100MB in file size. Installing the pack may take a very long time. It is recommended you install the pack manually with your computer instead.\n\nDo you wish to continue anyway\?"</string>
+    <string name="ToolsUnzipper_songpack">"Song pack:\n"</string>
+    <string name="ToolsUnzipper_unable_install">"Unable to install stepfiles from pack:\n"</string>
+    <string name="ToolsUnzipper_unable_read">"Unable to read file:\n"</string>
+    <string name="ToolsUpdateTask_update_ask">"New update for Beats is available!\n\nVersion name: %1$s\nVersion number: %2$d\n\nWould you like to download the new version?"</string>
+    <string name="Tools_do_not_show_again">"Do not show me this again"</string>
+    <string name="Tools_error_msg">"\nError message:\n"</string>
+    <string name="Tools_graphics_zip">"Beats 1.7x Graphics.zip"</string>
+    <string name="Tools_mount_error">"Unable to access the Beats folder."</string>
+    <string name="Tools_notify_msg">"\nPlease notify me of this error message.\n~Keripo"</string>
+    <string name="Tools_path_backgrounds">"/Backgrounds"</string>
+    <string name="Tools_path_beats">"/Beats"</string>
+    <string name="Tools_path_nomedia">"/.nomedia"</string>
+    <string name="Tools_path_noteskins">"/NoteSkins"</string>
+    <string name="Tools_path_osu">"/osu!"</string>
+    <string name="Tools_path_screenshots">"/Screenshots"</string>
+    <string name="Tools_path_singles">"/Singles"</string>
+    <string name="Tools_path_songs">"/Songs"</string>
+    <string name="Tools_path_version">"/version.txt"</string>
+    <string name="Tools_permissions_error">"\nCheck if you have the right file permissions."</string>
+    <string name="Tools_sample_zip">"Lisek's Stepfiles (Beats Sample Songs).zip"</string>
+    <string name="Tools_screenshot_saved">"Screenshot saved to:\n"</string>
+    <string name="Tools_unable_create_dir">"Error: Unable to create directory:\n"</string>
+    <string name="Tools_unable_create_file">"Error: Unable to create file:\n"</string>
+    <string name="Tools_unable_delete_dir">"Error: Unable to delete directory:\n"</string>
+    <string name="Tools_unable_delete_file">"Error: Unable to delete file:\n"</string>
+    <string name="Tools_usb_error">"\nMaybe you\'re in USB mode\?"</string>
+    <string name="Tools_window_error">"Window switching error - I haven\'t figured out how to fix this yet ; / (please email me details!)"</string>
+    <string name="Url_changelog">"http://beatsportable.com/changelog/"</string>
+    <string name="Url_demo">"http://beatsportable.com/demo/"</string>
+    <string name="Url_donate">"http://beatsportable.com/donate/"</string>
+    <string name="Url_downloads">"http://beatsportable.com/download-songs/"</string>
+    <string name="Url_forums">"http://beatsportable.com/forum/"</string>
+    <string name="Url_todo">"http://beatsportable.com/todo/"</string>
+    <string name="Url_tutorial">"http://beatsportable.com/tutorial/"</string>
+    <string name="Url_updates">"http://beatsportable.com/updates/"</string>
+    <string name="Url_version">"http://beatsportable.com/static/releases/version.txt"</string>
+    <string name="Url_website">"http://beatsportable.com"</string>
+    <string name="accuracyLevel">"accuracyLevel"</string>
+    <string name="accuracyLevelDefault">"45"</string>
+    <string name="accuracyLevelDesc">"Strictness of accuracy scoring"</string>
+    <string name="accuracyLevelTitle">"Judgement"</string>
+    <string name="additionalVibrations">"additionalVibrations"</string>
+    <string name="additionalVibrationsDefault">"1"</string>
+    <string name="additionalVibrationsDesc">"App and song startup vibrations"</string>
+    <string name="additionalVibrationsTitle">"Additional Vibrations"</string>
+    <string name="advancedScreenDesc">"More settings for customizing Beats to your heart\'s desire!"</string>
+    <string name="advancedScreenTitle">"Advanced Settings"</string>
+    <string name="appPriority">"appPriority"</string>
+    <string name="appPriorityDefault">"-16"</string>
+    <string name="appPriorityDesc">"Increase to reduce lag, may cause instability issues"</string>
+    <string name="appPriorityTitle">"Application Priority"</string>
+    <string name="autoPlay">"autoPlay"</string>
+    <string name="autoPlayDefault">"0"</string>
+    <string name="autoPlayDesc">"Use auto-play for learning song patterns (or for the lolz!)"</string>
+    <string name="autoPlayTitle">"Auto-Play"</string>
+    <string name="autoStart">"autoStart"</string>
+    <string name="autoStartDefault">"1"</string>
+    <string name="autoStartDesc">"Automatically start game upon stepfile selection"</string>
+    <string name="autoStartTitle">"Auto-Start"</string>
+    <string name="backgroundBrightness">"backgroundBrightness"</string>
+    <string name="backgroundBrightnessDefault">"75"</string>
+    <string name="backgroundBrightnessDesc">"Background image brightness"</string>
+    <string name="backgroundBrightnessTitle">"Background Brightness"</string>
+    <string name="backgroundCategoryTitle">"Game Background"</string>
+    <string name="backgroundFiltering">"backgroundFiltering"</string>
+    <string name="backgroundFilteringDefault">"0"</string>
+    <string name="backgroundFilteringDesc">"Smoothen background image (enabling may reduce framerate)"</string>
+    <string name="backgroundFilteringTitle">"Background Filtering"</string>
+    <string name="backgroundImage">"backgroundImage"</string>
+    <string name="backgroundImageDefault">"blue"</string>
+    <string name="backgroundImageDesc">"Background image for main menu and stepfiles without one"</string>
+    <string name="backgroundImageTitle">"Menu Background"</string>
+    <string name="backgroundShow">"backgroundShow"</string>
+    <string name="backgroundShowDefault">"1"</string>
+    <string name="backgroundShowDesc">"Draw the background image"</string>
+    <string name="backgroundShowTitle">"Show Background"</string>
+    <string name="backgroundSong">"backgroundSong"</string>
+    <string name="backgroundSongDefault">"1"</string>
+    <string name="backgroundSongDesc">"Load song-specific background image"</string>
+    <string name="backgroundSongTitle">"Load Song Background"</string>
+    <string name="betaNotesDefault">"1"</string>
+    <string name="betaNotesDesc">"Display beta notes on next startup"</string>
+    <string name="betaNotesTitle">"Beta Notes"</string>
+    <string name="changelogDesc">"Updated Changelog forum thread for the next release"</string>
+    <string name="changelogTitle">"Changelog"</string>
+    <string name="creditsDesc">"A bit about the devs and all others to thank"</string>
+    <string name="creditsTitle">"Credits"</string>
+    <string name="dark">"dark"</string>
+    <string name="darkDefault">"0"</string>
+    <string name="darkDesc">"Hide tap arrows"</string>
+    <string name="darkTitle">"Dark"</string>
+    <string name="debugLogCat">"debugLogCat"</string>
+    <string name="debugLogCatDefault">"0"</string>
+    <string name="debugLogCatDesc">"Print warning/error messages to LogCat"</string>
+    <string name="debugLogCatTitle">"LogCat Debugging"</string>
+    <string name="debugTapbox">"debugTapbox"</string>
+    <string name="debugTapboxDefault">"0"</string>
+    <string name="debugTapboxDesc">"Draw exact tapbox boxes"</string>
+    <string name="debugTapboxTitle">"Tapbox Debugging"</string>
+    <string name="debugTime">"debugTime"</string>
+    <string name="debugTimeDefault">"0"</string>
+    <string name="debugTimeDesc">"Display exact note and sync time diffs"</string>
+    <string name="debugTimeTitle">"Timing Debugging"</string>
+    <string name="debuggingCategoryTitle">"Debugging"</string>
+    <string name="demoDesc">"Video gameplay demo of Beats"</string>
+    <string name="demoTitle">"Demo"</string>
+    <string name="difficultyLevel">"difficultyLevel"</string>
+    <string name="difficultyLevelDefault">"2"</string>
+    <string name="difficultyLevelDesc">"Default difficulty level of song"</string>
+    <string name="difficultyLevelTitle">"Difficulty Level"</string>
+    <string name="displaySettingsCategoryTitle">"Display Settings"</string>
+    <string name="donateDesc">"Show thanks to the poor univ students! Donations keep our website up and running"</string>
+    <string name="donateTitle">"Donate"</string>
+    <string name="filebrowserCategoryTitle">"Song Browsing"</string>
+    <string name="forumsDesc">"Discussion and support forums for Beats"</string>
+    <string name="forumsTitle">"Forums"</string>
+    <string name="fullscreen">"fullscreen"</string>
+    <string name="fullscreenDefault">"0"</string>
+    <string name="fullscreenDesc">"Hide status and title bars"</string>
+    <string name="fullscreenTitle">"Fullscreen"</string>
+    <string name="gameMode">"gameMode"</string>
+    <string name="gameModeDefault">"0"</string>
+    <string name="gameModeDesc">"Mode of displaying notes"</string>
+    <string name="gameModeTitle">"Game Mode"</string>
+    <string name="gameScreenDesc">"Screen during gameplay"</string>
+    <string name="gameScreenTitle">"Game Screen"</string>
+    <string name="gameSettingsCategoryTitle">"Game Settings"</string>
+    <string name="gameplayCategoryTitle">"Gameplay"</string>
+    <string name="hardwareAccelerate">"hardwareAccelerate"</string>
+    <string name="hardwareAccelerateDefault">"-1"</string>
+    <string name="hardwareAccelerationDesc">May improve FPS</string>
+    <string name="hardwareAccelerationTitle">Hardware Acceleration</string>
+    <string name="healthMax">"healthMax"</string>
+    <string name="healthMaxDefault">"2000"</string>
+    <string name="healthMaxDesc">"Maximum health value"</string>
+    <string name="healthMaxTitle">"Health Total"</string>
+    <string name="healthPenalty">"healthPenalty"</string>
+    <string name="healthPenaltyDefault">"40"</string>
+    <string name="healthPenaltyDesc">"Health loss per note missed"</string>
+    <string name="healthPenaltyTitle">"Health Penalty"</string>
+    <string name="holds">"holds"</string>
+    <string name="holdsDefault">"1"</string>
+    <string name="holdsDesc">"Notes that have to be held down"</string>
+    <string name="holdsTitle">"Holds"</string>
+    <string name="ignoreBetaNotes">"ignoreBetaNotes"</string>
+    <string name="ignoreBetaNotesDefault">"0"</string>
+    <string name="ignoreDifficultyWarning">"ignoreDifficultyWarning"</string>
+    <string name="ignoreDifficultyWarningDefault">"0"</string>
+    <string name="ignoreLegacyWarning">"ignoreLegacyWarning"</string>
+    <string name="ignoreLegacyWarningDefault">"0"</string>
+    <string name="ignoreNewUserNotes">"ignoreNewUserNotes"</string>
+    <string name="ignoreNewUserNotesDefault">"0"</string>
+    <string name="ignoreOGGWarning">"ignoreOGGWarning"</string>
+    <string name="ignoreOGGWarningDefault">"0"</string>
+    <string name="ignoreOSUWarning">"ignoreOSUWarning"</string>
+    <string name="ignoreOSUWarningDefault">"0"</string>
+    <string name="ignoreSyncWarning">"ignoreSyncWarning"</string>
+    <string name="ignoreSyncWarningDefault">"0"</string>
+    <string name="ignoreTabletBackgroundWarning">"ignoreTabletBackgroundWarning"</string>
+    <string name="ignoreTabletBackgroundWarningDefault">"0"</string>
+    <string name="ignoreUnzipSizeWarning">"ignoreUnzipSizeWarning"</string>
+    <string name="ignoreUnzipSizeWarningDefault">"0"</string>
+    <string name="infoCategoryTitle">"Info"</string>
+    <string name="infoScreenDesc">"Links and info about Beats"</string>
+    <string name="infoScreenTitle">"Info"</string>
+    <string name="installSamples">"installSamples"</string>
+    <string name="installSamplesDefault">"1"</string>
+    <string name="installSamplesDesc">"Re-install sample songs on next startup"</string>
+    <string name="installSamplesTitle">"Install Sample Songs"</string>
+    <string name="interfaceCategoryTitle">"Game Interface"</string>
+    <string name="jumps">"jumps"</string>
+    <string name="jumpsDefault">"0"</string>
+    <string name="jumpsDesc">"Multiple notes per line"</string>
+    <string name="jumpsTitle">"Jumps"</string>
+    <string name="language">"language"</string>
+    <string name="languageDefault">"default"</string>
+    <string name="languageDesc">"Change displayed language"</string>
+    <string name="languageTitle">"Language"</string>
+    <string name="lastDir">"lastDir"</string>
+    <string name="lastDirDefault">""</string>
+    <string name="linksCategoryTitle">"Links"</string>
+    <string name="machineSettingsCategoryTitle">"Machine Settings"</string>
+    <string name="manualOGGOffset">"manualOGGOffset"</string>
+    <string name="manualOGGOffsetDefault">"0"</string>
+    <string name="manualOGGOffsetDesc">"Manually adjust this if .ogg music is off-sync (I use -0.325s)"</string>
+    <string name="manualOGGOffsetTitle">"OGG Offset"</string>
+    <string name="manualOffset">"manualOffset"</string>
+    <string name="manualOffsetDefault">"0"</string>
+    <string name="manualOffsetDesc">"Manually adjust this only if timing is off-sync"</string>
+    <string name="manualOffsetTitle">"Music Offset"</string>
+    <string name="miscCategoryTitle">"Misc"</string>
+    <string name="modifiersScreenDesc">"Modifiers affecting the notes data or appearances"</string>
+    <string name="modifiersScreenTitle">"Modifiers"</string>
+    <string name="noteAppearance">"noteAppearance"</string>
+    <string name="noteAppearanceDefault">"0"</string>
+    <string name="noteAppearanceDesc">"Visibility of notes"</string>
+    <string name="noteAppearanceTitle">"Appearance"</string>
+    <string name="notesCategoryTitle">"Notes"</string>
+    <string name="noteskin">"noteskin"</string>
+    <string name="noteskinDefault">"default"</string>
+    <string name="noteskinDesc">"Note graphics to load"</string>
+    <string name="noteskinTitle">"Note Skin"</string>
+    <string name="orientation">"orientation"</string>
+    <string name="orientationDefault">"2"</string>
+    <string name="orientationDesc">"Default screen orientation during gameplay"</string>
+    <string name="orientationTitle">"Screen Orientation"</string>
+    <string name="randomize">"randomize"</string>
+    <string name="randomizeDefault">"0"</string>
+    <string name="randomizeDesc">"Randomize note patterns (ignores holds)"</string>
+    <string name="randomizeTitle">"Randomize"</string>
+    <string name="resetHighScores">"resetScores"</string>
+    <string name="resetHighScoresDefault">"0"</string>
+    <string name="resetHighScoresDesc">"Reset all high scores on next game"</string>
+    <string name="resetHighScoresTitle">"Reset High Scores"</string>
+    <string name="resetSettings">"resetSettings"</string>
+    <string name="resetSettingsDefault">"1"</string>
+    <string name="resetSettingsDesc">"Reset all settings to default values on next startup"</string>
+    <string name="resetSettingsTitle">"Reset All Settings"</string>
+    <string name="screenshotMode">"screenshotMode"</string>
+    <string name="screenshotModeDefault">"0"</string>
+    <string name="screenshotModeDesc">"Enable this to take a screenshot when you pause the game"</string>
+    <string name="screenshotModeTitle">"Screenshot Mode"</string>
+    <string name="showFPS">"showFPS"</string>
+    <string name="showFPSDefault">"1"</string>
+    <string name="showFPSDesc">"Display current and average framerate (# of frames updates/sec)"</string>
+    <string name="showFPSTitle">"Show FPS"</string>
+    <string name="showPercent">"showPercent"</string>
+    <string name="showPercentDefault">"0"</string>
+    <string name="showPercentDesc">"Display percent instead of letter grade in scoreboard"</string>
+    <string name="showPercentTitle">"Display Percentage"</string>
+    <string name="smFilePath">"smFilePath"</string>
+    <string name="smFilePathDefault">""</string>
+    <string name="speedMultiplier">"speedMultiplier"</string>
+    <string name="speedMultiplierDefault">"2"</string>
+    <string name="speedMultiplierDesc">"Falling speed of notes"</string>
+    <string name="speedMultiplierTitle">"Speed"</string>
+    <string name="stepfileFolderCheck">"stepfileFolderCheck"</string>
+    <string name="stepfileFolderCheckDefault">"1"</string>
+    <string name="stepfileFolderCheckDesc">"Disable to directly open directories with stepfiles"</string>
+    <string name="stepfileFolderCheckTitle">"Stepfile Folder Checking"</string>
+    <string name="syncDuration">"syncDuration"</string>
+    <string name="syncDurationDefault">"1024"</string>
+    <string name="syncDurationDesc">"Notes-audio sync duration for startup and pause/resume"</string>
+    <string name="syncDurationTitle">"Audio Re-sync"</string>
+    <string name="tapSettingsCategoryTitle">"Tap Settings"</string>
+    <string name="tapboxFading">"tapboxFading"</string>
+    <string name="tapboxFadingDefault">"50"</string>
+    <string name="tapboxFadingDesc">"Transparency of tapboxes"</string>
+    <string name="tapboxFadingTitle">"Tapbox Fading"</string>
+    <string name="tapboxLayout">"tapboxLayout"</string>
+    <string name="tapboxLayoutDefault">"standard"</string>
+    <string name="tapboxLayoutDesc">"Arrangement of tapboxes"</string>
+    <string name="tapboxLayoutTitle">"Tapbox Layout"</string>
+    <string name="tapboxOverlap">"tapboxOverlap"</string>
+    <string name="tapboxOverlapDefault">"0.1"</string>
+    <string name="tapboxOverlapDesc">"Horizontal overlap of adjacent tapboxes"</string>
+    <string name="tapboxOverlapTitle">"Tapbox Overlap"</string>
+    <string name="tapboxYOffset">"tapboxYOffset"</string>
+    <string name="tapboxYOffsetDefault">"0"</string>
+    <string name="tapboxYOffsetDesc">"Vertical shift of tapboxes"</string>
+    <string name="tapboxYOffsetTitle">"Tapbox Placement"</string>
+    <string name="thanksCategoryTitle">"Thanks"</string>
+    <string name="todoDesc">"Updated To-Do List forum thread for the next release"</string>
+    <string name="todoTitle">"To-Do List"</string>
+    <string name="tutorialDesc">"Video tutorial demonstrating various features of Beats"</string>
+    <string name="tutorialTitle">"Tutorial"</string>
+    <string name="tweaksCategoryTitle">"Tweaks"</string>
+    <string name="updateCheck">"0"</string>
+    <string name="updateCheckDefault">"0"</string>
+    <string name="useShortDirNames">"useShortDirNames"</string>
+    <string name="useShortDirNamesDefault">"1"</string>
+    <string name="useShortDirNamesDesc">"Remove (...) and [...] tags from folder entries in \'SELECT MUSIC\'"</string>
+    <string name="useShortDirNamesTitle">"Shorten Folder Names"</string>
+    <string name="vibrateHold">"vibrateHold"</string>
+    <string name="vibrateHoldDefault">"1"</string>
+    <string name="vibrateHoldDesc">"Keep vibrating during hold arrows"</string>
+    <string name="vibrateHoldTitle">"Vibrate on Holds"</string>
+    <string name="vibrateMiss">"vibrateMiss"</string>
+    <string name="vibrateMissDefault">"1"</string>
+    <string name="vibrateMissDesc">"Vibrations on a note Miss or Auto-Play tap"</string>
+    <string name="vibrateMissTitle">"Vibrate on Miss"</string>
+    <string name="vibrateScreenDesc">"Vibration/haptic feedback settings"</string>
+    <string name="vibrateScreenTitle">"Vibrations"</string>
+    <string name="vibrateTap">"vibrateTap"</string>
+    <string name="vibrateTapDefault">"1"</string>
+    <string name="vibrateTapDesc">"Vibrations when tapping arrows"</string>
+    <string name="vibrateTapTitle">"Vibrate on Tap"</string>
+    <string name="vibrateTouchSense">"vibrateTouchSense"</string>
+    <string name="vibrateTouchSenseDefault">"1"</string>
+    <string name="vibrateTouchSenseDesc">"Haptic feedback with Immersion\'s Universal Haptic Layer (UHL) technology"</string>
+    <string name="vibrateTouchSenseTitle">"Vibrate with UHL"</string>
+    <string name="websiteDesc">"Read the latest updates at Beats\' official website http://beatsportable.com"</string>
+    <string name="websiteTitle">"Website"</string>
+    <style name="Theme.NoBackground" parent="android:Theme">
+        <item name="android:windowBackground">@null</item>
+    </style>
+</resources>
